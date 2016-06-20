@@ -2,15 +2,26 @@
 <html lang="en-US">
 <head>
 
-<title>Rodolfo Eduardo</title
+<title>Rodolfo Eduardo, Writer and Entrepreneur</title>
 
+<!-- Begin space for SEO -->
 <meta charset="utf-8">
+<!-- This piece of code is used to indicate to search engines that this url is the same as the original www.rodolfoeduardo.com -->
+<link rel="canonical" href="http://rodolfoeduardo.com/">
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Collection of RH writing available in different formats. You can view my work, access my social media, and contact me for collaboration opportunities.">
+<meta name="Keywords" content="RH,Rodolfo Eduardo,Rodolfo Hernandez,writing,writer,poetry,poem,quotes,instagram">
+<!-- End space for SEO -->
+
+<!-- Begin space for Favicon -->
+
+<!-- End space for Favicon -->
 </head>
 <body>
 
 <h1>Rodolfo Eduardo</h1>
-<p>Writer & Entrepreneur</p>
+<p>Writer and Entrepreneur</p>
 
 </body>
 </html>
