@@ -6,7 +6,8 @@
 
 <!-- Begin space for SEO -->
 <meta charset="utf-8">
-<!-- This piece of code is used to indicate to search engines that this url is the same as the original www.rodolfoeduardo.com -->
+
+<!-- This piece of code is used to indicate to search engines that this url is the same as the original www.rodolfoeduardo.com (original includes 'www.')-->
 <link rel="canonical" href="http://rodolfoeduardo.com/">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,6 +18,11 @@
 <!-- Begin space for Favicon -->
 
 <!-- End space for Favicon -->
+
+<!-- Begin space for JQuery using Google CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<!-- End space for JQuery -->
+
 </head>
 <body>
 
