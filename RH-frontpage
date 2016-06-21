@@ -25,20 +25,36 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <!-- End space for JQuery -->
 
+<!-- Hamburgler applet -->
+    <script src="hamburgler.js"></script>
+    <link rel="stylesheet" href="hamburgler.css">
+<!-- End Hamburgler applet -->
+
+
+
 </head>
 
 <body>
+  <!-- First div, we need this to make document level changes easier (CSS)-->
   <div class="homepage">
     <!-- Header starts here, includes Navigation menu -->
     <header>
-      <nav class="navigationmenu"
-        <ul class="nav-list">
-          <li class="nav-item"><a href="#">About</a></li>
-          <li class="nav-item"><a href="#">Poems</a></li>
-          <li class="nav-item"><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-
+      <!-- Second div, used as a container for better control when arranging the menu per the design (left side) -->
+      <div class="container"> 
+        <!-- Third div, used to contain the logo. In the <a> tag, replace '#' with homepage.html file name, replace '##' with the logo file name -->
+        <div class="logo">
+          <a href="#"><img src="##"/></a>
+        </div>
+        <nav class="navigationmenu">
+          <ul class="nav-list">
+          <!-- Change '#' to URLS later (note upated as of 6/21/16) -->
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Poems</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
 <h1>Rodolfo Eduardo</h1>
 <p>Writer and Entrepreneur</p>
