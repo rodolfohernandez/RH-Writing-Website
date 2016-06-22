@@ -5,13 +5,11 @@
 
 <!-- Begin space for SEO -->
     <meta charset="utf-8">
-
-<!-- This piece of code is used to indicate to search engines that this url is the same as the original www.rodolfoeduardo.com (original includes 'www.')-->
+    <!-- This piece of code is used to indicate to search engines that this url is the same as the original www.rodolfoeduardo.com (original includes 'www.')-->
     <link rel="canonical" href="http://rodolfoeduardo.com/">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Collection of RH writing available in different formats. You can view my work, access my social media, and contact me for collaboration opportunities.">
-    <meta name="Keywords" content="RH,Rodolfo Eduardo,Rodolfo Hernandez,writing,writer,poetry,poem,quotes,instagram">
+    <meta name="keywords" content="RH,Rodolfo Eduardo,Rodolfo Hernandez,writing,writer,poetry,poem,quotes,instagram">
 <!-- End space for SEO -->
 
 <!-- Begin space for Favicon -->
@@ -19,15 +17,16 @@
 <!-- End space for Favicon -->
 
 <!-- Google Fonts -->
-
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair|Crimson|Droid+Sans">
+<!-- End Google Fonts -->
 
 <!-- Begin space for JQuery using Google CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <!-- End space for JQuery -->
 
 <!-- Hamburgler applet, update later to reflect CSS organization (6/21/16) -->
-    <script src="hamburgler.js"></script>
-    <link rel="stylesheet" href="hamburgler.css">
+    <script src="JS/hamburgler.js"> </script>
+    <link rel="stylesheet" href="CSS/hamburgler.css">
 <!-- End Hamburgler applet -->
 
 <!-- Google Analytics, indicates in documentation that this script be included before the closing </head> (https://developers.google.com/analytics/devguides/collection/analyticsjs/) -->
@@ -36,7 +35,7 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      
+
       ga('create', 'UA-77793219-1', 'auto');
       ga('send', 'pageview');
     </script>
@@ -48,9 +47,9 @@
   <!-- First div, we need this to make document level changes easier (CSS)-->
   <div class="homepage">
     <!-- Header starts here, includes Navigation menu -->
-    <header>
+    <header class="header">
       <!-- Second div, used as a container for better control when arranging the menu per the design (left side) -->
-      <div class="container"> 
+      <div class="container">
         <!-- Third div, used to contain the logo. In the <a> tag, replace '#' with homepage.html file name, replace '##' with the logo file name -->
         <div class="logo">
           <a href="#"><img src="##"/></a>
@@ -77,11 +76,30 @@
               <div class="menui bottom-menu"></div>
             </div>
           </a>
-          <!-- End Hamburgler required code -->   
+          <!-- End Hamburgler required code -->
         </nav>
       </div>
     </header>
+    <!-- Main section starts here, could work as a <div>? -->
+    <main class="heroimage">
+      <!-- This will basically be a container for the hero image -->
+      <section class="container">
+        <div class="heroimagelink">
+          <!-- Update '#' with link to image -->
+          <img src="#"/>
+        </div>
+      </section>
+    </main>
+    <!-- Footer starts here, includes social media links -->
+    <footer class="footer">
+      <div class="container">
+        <div class="socialmediaicons">
+          <!-- This is where the social media code will go -->
+        </div>
+      </div>
+    </footer>
   </div>
+
 <h1>Rodolfo Eduardo</h1>
 <p>Writer and Entrepreneur</p>
 
