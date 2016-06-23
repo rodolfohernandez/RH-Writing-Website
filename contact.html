@@ -81,7 +81,29 @@
       <section class="contactcontainer">
         <div class="contactform">
           <h1 class="pagetitle">Contact</h1>
-            <form action='/'
+            <!-- Replace '#' with PHP script or website to handle form -->
+            <form action='#' method="POST">
+              <div>
+                  <input class="textfield" type="text" id="firstname" name="userfirstname" placeholder"First Name">
+              </div>
+
+              <div>
+                  <input class="textfield" type="text" id="lastname" name="userlastname">
+              </div>
+
+              <div>
+                  <input class="textfield" type="email" id="mail" name="useremail">
+              </div>
+
+              <div>
+                <label for="msg">Enter message here</label>
+                  <textarea id="msg" name="usermessage"></textarea>
+              </div>
+             
+              <div class="button">
+                <button type="submit">Send</button>
+              </div>
+            </form>
         </div>
       </section>
     </main>
