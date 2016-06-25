@@ -16,8 +16,25 @@ p {
 	font-size: 20px;
 }
 
+/* Grid for CSS */
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	position:relative;
+}
 
+container
+.:before,
+.container:after {
+	content: " ";
+	display: table;
+}
 
+.container:after {
+	clear: both;
+}
 
 .mobilenav-item {
 	font-family: "Droids Sans", Sans-Serif;
@@ -25,13 +42,6 @@ p {
 }
 
 
-
-
-
 .heroimage {
 	float: right;
-}
-
-.footer {
-	float:left;
 }
