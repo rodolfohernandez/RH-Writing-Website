@@ -55,25 +55,21 @@
   <!-- Page level reference div-->
   <div class="homepage">
     <!-- Header starts here, includes Navigation menu -->
-    <header class="header">
-      <div class="container">
-        <!-- Used to contain the logo. In the <a> tag, replace '#' with a link to the homepage, replace '##' with the logo file name -->
+    <div class="container">
+      <header class="header">
         <div class="logo">
-          <a href="//rodolfoeduardo.com"><img alt="mainlogo" src="##"/></a>
+          <a href="//rodolfoeduardo.com"><img alt="mainlogo" src="Images/HomeLogo.png"/></a>
+        </div>
+        <div class="heading">
+          <h1>Rodolfo Eduardo</h1>
+          <p>Writer & Entrepreneur</p>
         </div>
         <nav class="navigationmenu">
-          <!-- Why not use UL here? Div is more general? -->
-          <div class="browsernav">
-            <!-- Change '#' to URLS later (note upated as of 6/21/16) -->
-            <li class="nav-item"><a href="#">About</a></li>
-            <li class="nav-item"><a href="#">Poems</a></li>
-            <li class="nav-item"><a href="#">Contact</a></li>
-          </div>
           <!-- uses Hamburgler code, match '#' too code above -->
           <div class="mobilenav">
-            <li class="mobilenav-item"><a href="#">About</a></li>
-            <li class="mobilenav-item"><a href="#">Poems</a></li>
-            <li class="mobilenav-item"><a href="#">Contact</a></li>
+            <li class="mobilenav-item"><a href="about.html">About</a></li>
+            <li class="mobilenav-item"><a href="poems.html">Poems</a></li>
+            <li class="mobilenav-item"><a href="contact.html">Contact</a></li>
           </div>
           <a href="javascript:void(0)" class="icon">
             <div class="hamburger">
@@ -84,8 +80,19 @@
           </a>
           <!-- End Hamburgler required code -->
         </nav>
-      </div>
-    </header>
+        <div class="socialmediaicons">
+          <!-- This is where the social media code will go -->
+          <div class="instagramicon">
+            <a style="display: inline-block; border: 0; text-decoration: none;" href="https://www.instagram.com/rodolfo.eduardo/?ref=badge" class="instagramicon"><img src="//badges.instagram.com/static/images/ig-badge-16.png" alt="Instagram" /></a>
+          </div>
+          <div class="vscoicon">
+            <a style="display: inline-block; border: 0; text-decoration: none;" href="http://vsco.co/rodolfohernandez?utm_source=user_grid&utm_medium=user_website&utm_campaign=link_to_grid"><img style="width: 16px; height: 16px; margin: 0px;" src="http://assets.vsco.co/assets/images/assets/Logo_black_16.png" alt="VSCO Logo" /></a>
+          </div>
+        </div>  
+      </header>
+    </div>
+
+    </div>
     <!-- Main section starts here, could work as a <div>? -->
     <main class="heroimage">
       <!-- This will basically be a container for the hero image -->
@@ -99,21 +106,11 @@
     <!-- Footer starts here, includes social media links -->
     <footer class="footer">
       <div class="container">
-        <div class="socialmediaicons">
-          <!-- This is where the social media code will go -->
-          <div class="instagramicon">
-            <style>.ig-b- { display: inline-block; } .ig-b- img { visibility: hidden; } .ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; } .ig-b-16 { width: 16px; height: 16px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-16.png) no-repeat 0 0; } @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .ig-b-16 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-16@2x.png); background-size: 60px 178px; } }</style> <a href="https://www.instagram.com/rodolfo.eduardo/?ref=badge" class="ig-b- ig-b-16"><img src="//badges.instagram.com/static/images/ig-badge-16.png" alt="Instagram" /></a>
-          </div>
-          <div class="vscoicon"
-            <a style="display: inline-block; border: 0; text-decoration: none;" href="http://vsco.co/rodolfohernandez?utm_source=user_grid&utm_medium=user_website&utm_campaign=link_to_grid"><img style="width: 16px; height: 16px; margin: 0px;" src="http://assets.vsco.co/assets/images/assets/Logo_black_16.png" alt="VSCO Logo" /></a>
-          </div>
-        </div>
+        
       </div>
     </footer>
   </div>
 
-<h1>Rodolfo Eduardo</h1>
-<p>Writer and Entrepreneur</p>
 
 </body>
 </html>

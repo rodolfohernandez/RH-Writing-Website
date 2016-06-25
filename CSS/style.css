@@ -1,0 +1,37 @@
+html, body {
+	overflow-x: hidden;
+}
+
+body {
+	color: #000000;
+}
+
+h1 {
+	font-family: "Crimson", Serif;
+	font-size: 36px;
+}
+
+p {
+	font-family: "Crimson", Serif;
+	font-size: 20px;
+}
+
+
+
+
+.mobilenav-item {
+	font-family: "Droids Sans", Sans-Serif;
+	font-size: 28px;
+}
+
+
+
+
+
+.heroimage {
+	float: right;
+}
+
+.footer {
+	float:left;
+}
