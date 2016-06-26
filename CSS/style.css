@@ -83,6 +83,7 @@ img {
 
 .heroimage {
 	display: block;
+	padding-bottom: 50px;
 	margin-left: auto;
 
 }
