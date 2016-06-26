@@ -4,6 +4,7 @@ html, body {
 
 body {
 	color: #000000;
+	margin: 0px;
 }
 
 h1 {
@@ -16,32 +17,38 @@ p {
 	font-size: 20px;
 }
 
-/* Grid for CSS */
 .container {
-	margin-right: auto;
-	margin-left: auto;
-	padding-left: 20px;
-	padding-right: 20px;
-	position:relative;
-}
-
-container
-.:before,
-.container:after {
-	content: " ";
-	display: table;
-}
-
-.container:after {
+	height: 1029px;
+	width: 1920px;
+	position: relative;
 	clear: both;
+	transform-style: preserve-3d;
 }
 
-.mobilenav-item {
-	font-family: "Droids Sans", Sans-Serif;
-	font-size: 28px;
+.header {
+	width: 25%;
+	text-align: center;
+	float:left;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+
 }
 
+.logo {
+	text-align: center;
+}
+
+.heading {
+	text-align: center;
+}
+
+.socialmediaicons {
+	text-align: center;
+}
 
 .heroimage {
+	display: block;
+	width: 75%;
 	float: right;
 }
