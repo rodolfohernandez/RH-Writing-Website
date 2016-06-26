@@ -1,10 +1,11 @@
-html, body {
+/* html, body {
 	overflow-x: hidden;
-}
+} */
 
 body {
 	color: #000000;
 	margin: 0px;
+	padding: 0px;
 }
 
 h1 {
@@ -18,28 +19,73 @@ p {
 }
 
 .container {
-	height: 1029px;
-	width: 1920px;
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
-	clear: both;
-	transform-style: preserve-3d;
 }
 
-.header {
-	width: 25%;
+header {
+	margin: auto;
+}
+
+.mainlogo {
+	display: block;
+	margin-left: auto;
+	width: 65px;
+	height: 65px;
+}
+
+h1 {
 	text-align: center;
-	float:left;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-
 }
 
-.logo {
+p {
 	text-align: center;
 }
 
-.heading {
+img {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+.socialmediaicons {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.igcontainer {
+	float: left;
+	width: 50%;
+	margin: 0px;
+}
+
+.instagramicon {
+	text-align: right;
+	width: 100%;
+	padding-right: 5px;
+}
+
+.vscocontainer {
+	float: right;
+	margin: 0px;
+	width: 50%;
+}
+
+.vscoicon {
+	text-align: left;
+	width: 100%;
+	padding-left: 5px;
+}
+
+.heroimage {
+	display: block;
+	margin-left: auto;
+
+}
+/* .heading {
 	text-align: center;
 }
 
@@ -49,6 +95,39 @@ p {
 
 .heroimage {
 	display: block;
-	width: 75%;
-	float: right;
+	width: 99%;
 }
+*/
+
+/* MEDIA QUERIES 
+@media (min-width: 300px) and (max-width: 650px) {
+	.container {
+		width: 80%;
+	}
+
+
+}
+
+@media (min-width: 650px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		width: 750px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.container {
+		width: 900px;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1050px;
+	}
+}
+*/
