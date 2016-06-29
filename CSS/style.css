@@ -1,135 +1,201 @@
-/* html, body {
+html, body {
 	overflow-x: hidden;
-} */
+	height: 100%;
+}
 
 body {
 	color: #000000;
 	margin: 0px;
 	padding: 0px;
+	min-height: 100%;
 }
 
 h1 {
-	font-family: "Crimson", Serif;
-	font-size: 36px;
+	font-family: "Playfair Display", Serif;
+	font-weight: normal;
+	font-size: 20px;
+	margin: auto;
+	text-align: center;
 }
 
 p {
-	font-family: "Crimson", Serif;
-	font-size: 20px;
+	font-family: "Crimson Text", Serif;
+	font-size: 12px;
+	margin: auto;
+	text-align: center;
 }
 
+
 .container {
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	position: relative;
 }
 
 header {
 	margin: auto;
+	height: 100%;
+}
+
+.navigation {
+	font-family: "Droid Sans", Sans-Serif;
+	font-size: 13px;
+	text-align: center;
+	display: table;
+	margin: auto;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+li {
+	margin: 15px;
+}
+
+.navigationdivider {
+	margin-bottom: 25px;
+}
+
+.divider {
+	color: #f2f2f2;
+}
+
+.navigationitem {
+	text-decoration: none;
+	color: #000000;
 }
 
 .mainlogo {
 	display: block;
 	margin-left: auto;
-	padding-top: 25px;
-	width: 65px;
-	height: 65px;
-}
-
-h1 {
-	text-align: center;
-}
-
-p {
-	text-align: center;
+	height: 32px;
+	width: 32px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 }
 
 img {
-	display:block;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .socialmediaicons {
-	display:block;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 3%;
+	overflow: hidden;
 }
 
-
 .igcontainer {
-	float: left;
+	float: right;
 	width: 50%;
 	margin: 0px;
+	padding-top: 5px;
 }
 
 .instagramicon {
-	text-align: right;
+	text-align: left;
 	width: 100%;
-	padding-right: 5px;
+	padding-left: 10px;
 }
 
 .vscocontainer {
-	float: right;
+	float: left;
 	margin: 0px;
 	width: 50%;
+	padding-top: 5px;
 }
 
 .vscoicon {
-	text-align: left;
-	width: 100%;
-	padding-left: 5px;
+	text-align: right;
+	width: 93%;
 }
 
 .heroimage {
 	display: block;
-	padding-bottom: 50px;
 	margin: auto;
-
-}
-/* .heading {
-	text-align: center;
+	padding-top: 15px;
 }
 
-.socialmediaicons {
-	text-align: center;
-}
-
-.heroimage {
-	display: block;
-	width: 99%;
-}
-*/
-
-/* MEDIA QUERIES
-@media (min-width: 300px) and (max-width: 650px) {
-	.container {
-		width: 80%;
-	}
-
-
-}
-
-@media (min-width: 650px) {
-	.container {
-		width: 600px;
-	}
-}
-
-@media (min-width: 768px) {
-	.container {
-		width: 750px;
-	}
+.iconimages {
+	width: 12px; 
+	height: 12px; 
+	margin: 0px;"
 }
 
 @media (min-width: 1000px) {
 	.container {
-		width: 900px;
-}
-
-@media (min-width: 1200px) {
-	.container {
-		width: 1050px;
+		height: 100%;
+		width: 25%;
+		float: left;
 	}
+
+	.logocontainer {
+		padding-top: 15%;
+	}
+
+	.heroimage {
+		height: 100%;
+		padding: 0px;
+		margin-left: 25%;
+	}
+	
+	.socialmediaicons {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 60%;
+		overflow: hidden;
+	}	
+
+	h1 {
+		font-size: 20px;
+		margin: auto;
+		text-align: center;
+	}
+
+	p {
+		font-size: 12px;
+		margin: auto;
+		text-align: center;
+	}
+
+	ul {
+		margin: auto;
+		list-style-type: none;
+	}
+
+	li {
+		margin: 20px;
+	}
+
+
+	.navigation {
+		font-family: "Droid Sans", Sans-Serif;
+		font-size: 14px;
+		text-align: center;
+		display: table;
+		margin: auto;
+	}
+
+	.mainlogo {
+		display: block;
+		margin-left: auto;
+		height: 40px;
+		width: 40px;
+		padding-top: 25px;
+		padding-bottom: 10px;
+	}
+
+	.iconimages {
+		width: 16px; 
+		height: 16px; 
+		margin: 0px;"
+	}
+
+
 }
-*/
