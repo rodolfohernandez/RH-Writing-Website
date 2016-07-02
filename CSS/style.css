@@ -4,10 +4,48 @@ html, body {
 }
 
 body {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+body {
 	color: #000000;
 	margin: 0px;
 	padding: 0px;
 	min-height: 100%;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	max-width: 100%;
+	margin-right: auto;
+}
+
+/* Header */
+.container {
+	margin: auto;
+	position: relative;
+}
+
+header {
+	margin: auto;
+	height: 100%;
+}
+
+.mainlogo {
+	display: block;
+	margin-left: auto;
+	height: 32px;
+	width: 32px;
+}
+
+.logocontainer {
+	margin: auto;
+	height: 32px;
+	width: 32px;
+	padding-top: 15px;
+	padding-bottom: 10px;
 }
 
 h1 {
@@ -26,20 +64,8 @@ p {
 }
 
 
-.container {
-	margin: auto;
-	position: relative;
-}
-
-header {
-	margin: auto;
-	height: 100%;
-}
-
+/* Navigation */
 .navigation {
-	font-family: "Droid Sans", Sans-Serif;
-	font-size: 13px;
-	text-align: center;
 	display: table;
 	margin: auto;
 }
@@ -48,6 +74,8 @@ ul {
 	margin: 0px;
 	padding: 0px;
 	list-style-type: none;
+	text-align: center;
+	font-family: "Droid Sans", Sans-Serif;
 }
 
 li {
@@ -67,90 +95,84 @@ li {
 	color: #000000;
 }
 
-.mainlogo {
-	display: block;
-	margin-left: auto;
-	height: 32px;
-	width: 32px;
-	padding-top: 15px;
-	padding-bottom: 10px;
-}
-
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
+/* Social Media Icons */
 
 .socialmediaicons {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	padding-top: 3%;
 	overflow: hidden;
 }
 
+.vscocontainer {
+	float: left;
+	margin: 0px;
+	width: 48%;
+	padding-top: 5px;
+}
+
+.vscoicon {
+	text-align: right;
+}
+
 .igcontainer {
 	float: right;
-	width: 50%;
+	width: 48%;
 	margin: 0px;
 	padding-top: 5px;
 }
 
 .instagramicon {
 	text-align: left;
-	width: 100%;
-	padding-left: 10px;
 }
 
-.vscocontainer {
-	float: left;
+.iconimages {
+	width: 12px; 
+	height: 12px; 
 	margin: 0px;
-	width: 50%;
-	padding-top: 5px;
 }
 
-.vscoicon {
-	text-align: right;
-	width: 93%;
-}
-
+/* Hero Image */
 .heroimage {
 	display: block;
 	margin: auto;
 	padding-top: 15px;
 }
 
-.iconimages {
-	width: 12px; 
-	height: 12px; 
-	margin: 0px;"
-}
 
-@media (min-width: 1000px) {
+/* Media Queries */
+/* Media Query: Desktop, ~1024px */
+@media (min-width: 1000px) and (max-width: 1500px) {
+	html, body {
+		overflow-x: hidden;
+	}
+
+	body {
+		overflow-y: hidden;
+	}
+
+	/* Menu (header) */
 	.container {
 		height: 100%;
-		width: 25%;
+		width: 20%;
 		float: left;
 	}
 
 	.logocontainer {
-		padding-top: 15%;
+		padding-top: 25px;
+		padding-bottom: 10px;
+		height: 40px;
+		width: 40px;
+		margin: auto;
 	}
 
-	.heroimage {
-		height: 100%;
-		padding: 0px;
-		margin-left: 25%;
-	}
-	
-	.socialmediaicons {
+	.mainlogo {
 		display: block;
 		margin-left: auto;
-		margin-right: auto;
-		padding-top: 60%;
-		overflow: hidden;
-	}	
+		height: 40px;
+		width: 40px;
+
+	}
 
 	h1 {
 		font-size: 20px;
@@ -164,7 +186,15 @@ img {
 		text-align: center;
 	}
 
+	/* Navigation */
+	.navigation {
+		text-align: center;
+		display: table;
+		margin: auto;
+	}
+
 	ul {
+		font-family: "Droid Sans", Sans-Serif;
 		margin: auto;
 		list-style-type: none;
 	}
@@ -173,29 +203,39 @@ img {
 		margin: 20px;
 	}
 
-
-	.navigation {
-		font-family: "Droid Sans", Sans-Serif;
-		font-size: 14px;
-		text-align: center;
-		display: table;
-		margin: auto;
-	}
-
-	.mainlogo {
+	/* Social Media */
+	.socialmediaicons {
 		display: block;
 		margin-left: auto;
-		height: 40px;
-		width: 40px;
-		padding-top: 25px;
-		padding-bottom: 10px;
+		margin-right: auto;
+		padding-top: 80%;
+		overflow: hidden;
+	}	
+
+	.igcontainer {
+		float: right;
+		width: 46%;
+		margin: 0px;
+		padding-top: 5px;
+	}
+
+
+	.vscocontainer {
+		float: left;
+		width: 46%;
+		margin: 0px;
+		padding-top: 5px;
 	}
 
 	.iconimages {
 		width: 16px; 
 		height: 16px; 
-		margin: 0px;"
+		margin: 0px;
 	}
 
-
-}
+	/* Hero Image */
+	.heroimage {
+		padding: 0px;
+		margin-left: 20%;
+	}
+	
