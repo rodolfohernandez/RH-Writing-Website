@@ -1,7 +1,8 @@
+/* Hamburgler code */
 .hamburgler-icon-wrapper {
   position: absolute;
-  top: 1em;
-  right: 1em;
+  top: 2em;
+  right: 3em;
   height: 26px;
   width: 26px;
   cursor: pointer
@@ -83,4 +84,30 @@
 
 .hamburgler-active .hamburgler-menu-list {
   transform: translate(-50%, -50%) scale(1)
+}
+
+/* Page code starts here */
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 40px;
+  width: auto;
+}
+
+.mainLogoContainer {
+  width: 40px;
+  height: 40px;
+}
+
+.mainlogo {
+  width: 40x;
+  height: 40px;
+}
+
+.innerColumn {
+  margin: 15px;
+  width: auto;
 }
