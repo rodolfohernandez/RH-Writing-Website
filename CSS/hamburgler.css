@@ -148,3 +148,10 @@ li {
   margin: 15px;
   width: auto;
 }
+
+/* Media Queries */
+/* Media Query: Desktop, ~1024px */
+@media (min-width: 1000px) and (max-width: 1500px) {
+  html, body {
+    overflow-x: hidden;
+  }
