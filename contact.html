@@ -4,25 +4,33 @@
   <!-- Begin space for SEO -->
   <title>Rodolfo Eduardo, Writer and Entrepreneur</title>
   <meta charset="utf-8">
-  <link rel="canonical" href="http://rodolfoeduardo.com/contact">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <link rel="canonical" href="http://rodolfoeduardo.com/poems">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Collection of RH writing available in different formats. You can view my work, access my social media, and contact me for collaboration opportunities.">
   <meta name="keywords" content="RH,Rodolfo Eduardo,Rodolfo Hernandez,writing,writer,poetry,poem,quotes,instagram">
   <meta name="robots" content="noodp">
+  <meta name="apple-mobile-web-app-title" content="RH Writing">
   <meta property="og:title" content="Rodolfo Eduardo, Writer and Entrepreneur">
   <meta property="og:type" content="website">
-  <!-- Change '#' to same logo url as below -->
-  <meta property="og:image" content="#">
-  <meta property="og:url" content="http://rodolfoeduardo.com/contact">
+  <meta property="og:image" content="Images/HomeLogo.png">
+  <meta property="og:url" content="http://rodolfoeduardo.com/poems">
   <meta property="og:description" content="Collection of RH writing available in different formats. You can view my work, access my social media, and contact me for collaboration opportunities.">
-  <meta property="og:site_name" content="RH Writing">
+  <meta property="og:site_name" content="RH Writing - Poems">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:description" content="Collection of RH writing available in different formats. You can view my work, access my social media, and contact me for collaboration opportunities">
   <meta name="twitter:title" content="Rodolfo Eduardo, Writer and Entrepreneur">
   <!-- End space for SEO -->
 
   <!-- Begin space for Favicon -->
-
+  <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="Images/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="Images/favicon-194x194.png" sizes="194x194">
+  <link rel="icon" type="image/png" href="Images/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="Images/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="Images/manifest.json">
+  <link rel="mask-icon" href="Images/safari-pinned-tab.svg" color="#000000">
+  <meta name="theme-color" content="#ffffff">
   <!-- End space for Favicon -->
 
   <!-- Google Fonts -->
@@ -34,7 +42,7 @@
   <!-- End space for JQuery -->
 
   <!-- Hamburgler applet, update later to reflect CSS organization (6/21/16) -->
-  <script src="JS/hamburgler.js"> </script>
+    <!-- <link rel="stylesheet" href="CSS/style.css"> -->
   <link rel="stylesheet" href="CSS/hamburgler.css">
   <!-- End Hamburgler applet -->
 
@@ -50,88 +58,92 @@
   </script>
   <!-- End Google Analytics -->
 </head>
-
 <body>
   <!-- Page level reference div-->
-  <div class="contactpage">
+  <div class="columnContainer">
     <!-- Header starts here, includes Navigation menu -->
-    <header class="header">
-      <div class="container">
-        <!-- Used to contain the logo. In the <a> tag, replace '#' with a link to the homepage, replace '##' with the logo file name -->
-        <div class="logo">
-          <a href="//rodolfoeduardo.com"><img alt="mainlogo" src="##"/></a>
-        </div>
-        <nav class="navigationmenu">
-          <!-- Why not use UL here? Div is more general? -->
-          <div class="browsernav">
-            <!-- Change '#' to URLS later (note upated as of 6/21/16) -->
-            <li class="nav-item"><a href="#">About</a></li>
-            <li class="nav-item"><a href="#">Poems</a></li>
-            <li class="nav-item"><a href="#">Contact</a></li>
-          </div>
-          <!-- uses Hamburgler code, match '#' too code above -->
-          <div class="mobilenav">
-            <li class="mobilenav-item"><a href="#">About</a></li>
-            <li class="mobilenav-item"><a href="#">Poems</a></li>
-            <li class="mobilenav-item"><a href="#">Contact</a></li>
-          </div>
-          <a href="javascript:void(0)" class="icon">
-            <div class="hamburger">
-              <div class="menui top-menu"></div>
-              <div class="menui mid-menu"></div>
-              <div class="menui bottom-menu"></div>
-            </div>
-          </a>
-          <!-- End Hamburgler required code -->
-        </nav>
+    <div class="outerColumn">
+      <div class="aboutlogocontainer">
+        <a class="mainLogoContainer" href="//rodolfoeduardo.com">
+          <img border="0" class="mainlogo" alt="mainlogo" src="Images/HomeLogo.png"/>
+        </a>
       </div>
-    </header>
+        <!-- uses Hamburgler code, match '#' too code above -->
+      <div class="hamburgler-menu">
+        <ul class="hamburgler-menu-list">
+          <li><a class="navigationitem" href="about.html">About</a></li>
+          <li><a class="navigationitem" href="poems.html">Poems</a></li>
+          <li><a class="navigationitem" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div id="hamburgler" class="hamburgler-icon-wrapper">
+        <span class="hamburgler-icon"></span>
+      </div>
+      <!-- End Hamburgler required code -->
+
+      <script>
+        document.getElementById('hamburgler').addEventListener('click', checkNav);
+        window.addEventListener("keyup", function(e) {
+          if (e.keyCode == 27) closeNav();
+        }, false);
+
+        function checkNav() {
+          if (document.body.classList.contains('hamburgler-active')) {
+            closeNav();
+          } else {
+            openNav();
+          }
+        }
+
+        function closeNav() {
+          document.body.classList.remove('hamburgler-active');
+        }
+
+        function openNav() {
+          document.body.classList.add('hamburgler-active');
+        }
+      </script>
+    </div>
     <!-- Main section starts here, could work as a <div>? -->
-    <main class="contactpage">
-      <!-- Container for the copy -->
-      <section class="contactcontainer">
-        <div class="contactform">
-          <h1 class="pagetitle">Contact</h1>
-            <!-- Replace '#' with PHP script or website to handle form -->
-            <form action='#' method="POST">
-              <div>
-                  <input class="textfield" type="text" id="firstname" name="userfirstname" placeholder"First Name" />
-              </div>
-
-              <div>
-                  <input class="textfield" type="text" id="lastname" name="userlastname" placeholder"Last Name" />
-              </div>
-
-              <div>
-                  <input class="emailtextfield" type="email" id="mail" name="useremail" placeholder"Email" />
-              </div>
-
-              <div>
-                  <textarea id="message" name="usermessage"></textarea>
-              </div>
-
-              <div class="button">
-                <button type="submit">Send</button>
-              </div>
-            </form>
+    <div class="innerColumn">
+      <h1 class="pagetitle">Contact</h1>
+        <!-- Replace '#' with PHP script or website to handle form -->
+      <form action="https://formspree.io/hernandez.e.rodolfo@gmail.com" method="POST">
+        <div>
+            <input id="textfield" name="textfield" type="text" placeholder"First Name" />
         </div>
-      </section>
-    </main>
+
+        <div>
+            <input class="textfield" type="text" id="lastname" name="userlastname" placeholder"Last Name" />
+        </div>
+
+        <div>
+            <input class="emailtextfield" type="email" id="mail" name="useremail" placeholder"Email" />
+        </div>
+
+        <div>
+            <textarea id="message" name="usermessage" placeholder="Type your message here"></textarea>
+        </div>
+
+        <div class="button">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
     <!-- Footer starts here, includes social media links -->
-    <footer class="footer">
-      <div class="container">
-        <div class="socialmediaicons">
-          <!-- This is where the social media code will go -->
-          <div class="instagramicon">
-            <style>.ig-b- { display: inline-block; } .ig-b- img { visibility: hidden; } .ig-b-:hover { background-position: 0 -60px; } .ig-b-:active { background-position: 0 -120px; } .ig-b-16 { width: 16px; height: 16px; background: url(//badges.instagram.com/static/images/ig-badge-sprite-16.png) no-repeat 0 0; } @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) { .ig-b-16 { background-image: url(//badges.instagram.com/static/images/ig-badge-sprite-16@2x.png); background-size: 60px 178px; } }</style> <a href="https://www.instagram.com/rodolfo.eduardo/?ref=badge" class="ig-b- ig-b-16"><img src="//badges.instagram.com/static/images/ig-badge-16.png" alt="Instagram" /></a>
-          </div>
-          <div class="vscoicon"
-            <a style="display: inline-block; border: 0; text-decoration: none;" href="http://vsco.co/rodolfohernandez?utm_source=user_grid&utm_medium=user_website&utm_campaign=link_to_grid"><img style="width: 16px; height: 16px; margin: 0px;" src="http://assets.vsco.co/assets/images/assets/Logo_black_16.png" alt="VSCO Logo" /></a>
-          </div>
+    <div class="socialmediaicons">
+      <div class="vscocontainer">
+        <div class="vscoicon">
+          <a style="display: inline-block; border: 0; text-decoration: none;" href="http://vsco.co/rodolfohernandez"><img class="iconimages" src="http://assets.vsco.co/assets/images/assets/Logo_black_16.png" alt="VSCO Logo" /></a>
         </div>
       </div>
-    </footer>
+      <div class="igcontainer">
+        <div class="instagramicon">
+            <a style="display: inline-block; border: 0; text-decoration: none;" href="https://www.instagram.com/rodolfo.eduardo/?ref=badge"><img class= "iconimages" src="Images/instagramlogo.png" alt="Instagram" /></a>
+        </div>
+      </div>
+    </div>
   </div>
-
 </body>
 </html>
