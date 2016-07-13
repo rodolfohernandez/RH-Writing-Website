@@ -127,7 +127,10 @@ form {
   text-align: left;
 }
 
-.instagramphoto {}
+.instagramphoto {
+  display: block;
+  margin: 0px;
+}
 
 .navigationitem {
   text-decoration: none;
