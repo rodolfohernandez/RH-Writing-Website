@@ -120,6 +120,13 @@ li {
   margin: 20px;
 }
 
+form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
 .instagramphoto {}
 
 .navigationitem {
@@ -147,8 +154,79 @@ li {
 }
 
 .innerColumn {
-  margin: 15px;
+  display: block;
+  margin: 0px;
   width: auto;
+  text-align: left;
+}
+
+.contactTitle {
+  margin-bottom: 0px;
+}
+
+input {
+  padding: 5px;
+}
+
+.button {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: normal;
+  background: #000000;
+  width: 90px;
+  height: 30px;
+  text-decoration: none;
+}
+
+textarea {
+  width: 200px;
+  height: 100px;
+  padding: 0px;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+/* Social Media Icons */
+
+.socialmediaicons {
+	display: block;
+	margin: auto;
+	padding-top: 3%;
+	overflow: hidden;
+}
+
+.vscocontainer {
+	float: left;
+	margin: 0px;
+	width: 48%;
+	padding-top: 5px;
+}
+
+.vscoicon {
+	text-align: right;
+}
+
+.igcontainer {
+	float: right;
+	width: 48%;
+	margin: 0px;
+	padding-top: 5px;
+}
+
+.instagramicon {
+	text-align: left;
+}
+
+.iconimages {
+	width: 12px;
+	height: 12px;
+	margin: 0px;
 }
 
 /* Media Queries */

@@ -105,30 +105,18 @@
         }
       </script>
     </div>
-    <!-- Main section starts here, could work as a <div>? -->
+
     <div class="innerColumn">
-      <h1 class="pagetitle">Contact</h1>
+      <h1 class="contactTitle">Contact</h1>
         <!-- Replace '#' with PHP script or website to handle form -->
       <form action="https://formspree.io/hernandez.e.rodolfo@gmail.com" method="POST">
-        <div>
-            <input id="textfield" name="textfield" type="text" placeholder"First Name" />
-        </div>
-
-        <div>
-            <input class="textfield" type="text" id="lastname" name="userlastname" placeholder"Last Name" />
-        </div>
-
-        <div>
-            <input class="emailtextfield" type="email" id="mail" name="useremail" placeholder"Email" />
-        </div>
-
-        <div>
-            <textarea id="message" name="usermessage" placeholder="Type your message here"></textarea>
-        </div>
-
-        <div class="button">
-          <button type="submit">Send</button>
-        </div>
+        <ul>
+          <li class="formitem"><input class="textfield" type="text" name="textfield" placeholder="First Name"></li>
+          <li class="formitem"><input class="textfield" type="text" name="userlastname" placeholder="Last Name"></li>
+          <li class="formitem"><input class="textfield" type="email" name="useremail" placeholder="Email"></li>
+          <textarea class="textfield" name="usermessage" placeholder="Type your message here"></textarea>
+          <li class="formitem"><input class="button" type="submit" value="Send"></li>
+        </ul>
       </form>
     </div>
     <!-- Footer starts here, includes social media links -->
