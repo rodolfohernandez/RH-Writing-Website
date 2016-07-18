@@ -56,41 +56,69 @@
 
 <body>
   <div class="columnContainer">
-    <div class="copycontainer">
-      <header>
-        <div class="mainLogoContainer">
-          <a href="//rodolfoeduardo.com">
-            <img border="0" class="mainlogo" alt="mainlogo" src="Images/HomeLogo.png"/>
+    <!-- Header starts here, includes Navigation menu -->
+    <div class="outerColumn">
+        <div class="aboutlogocontainer">
+          <a class="mainLogoContainer" href="//rodolfoeduardo.com">
+             <img border="0" class="mainlogo" alt="mainlogo" src="Images/HomeLogo.png"/>
           </a>
+          <h1 class="pagetitle">Rodolfo Hernandez</h1>
+          <h2>Writer & Entrepreneur</h2>
         </div>
-        <div class="heading">
-          <h1>Rodolfo Eduardo</h1>
-          <p>Writer & Entrepreneur</p>
+        <!-- uses Hamburgler code, match '#' too code above -->
+        <div class="hamburgler-menu">
+          <ul class="hamburgler-menu-list">
+            <li><a class="navigationitem" href="about.html">About</a></li>
+            <li><a class="navigationitem" href="poems.html">Poems</a></li>
+            <li><a class="navigationitem" href="contact.html">Contact</a></li>
+          </ul>
         </div>
-        <ul class="navigation">
-          <!-- uses Hamburgler code, match '#' too code above -->
-          <li class="navigationdivider"><a class="divider" href="about.html">____</a></li>
-          <li><a class="navigationitem" href="about.html">About</a></li>
-          <li><a class="navigationitem" href="poems.html">Poems</a></li>
-          <li><a class="navigationitem" href="contact.html">Contact</a></li>
-         </ul>
-          <!-- This is where the social media code will go -->
-        <div class="socialmediaicons">
-          <div class="vscocontainer">
-            <div class="vscoicon">
-              <a style="display: inline-block; border: 0; text-decoration: none;" href="http://vsco.co/rodolfohernandez"><img class="iconimages" src="http://assets.vsco.co/assets/images/assets/Logo_black_16.png" alt="VSCO Logo" /></a>
-            </div>
+
+        <div id="hamburgler" class="hamburgler-icon-wrapper">
+          <span class="hamburgler-icon"></span>
+        </div>
+        <!-- End Hamburgler required code -->
+
+      <script>
+        document.getElementById('hamburgler').addEventListener('click', checkNav);
+        window.addEventListener("keyup", function(e) {
+          if (e.keyCode == 27) closeNav();
+        }, false);
+
+        function checkNav() {
+          if (document.body.classList.contains('hamburgler-active')) {
+            closeNav();
+          } else {
+            openNav();
+          }
+        }
+
+        function closeNav() {
+          document.body.classList.remove('hamburgler-active');
+        }
+
+        function openNav() {
+          document.body.classList.add('hamburgler-active');
+        }
+      </script>
+
+      <div class="socialmediaicons">
+        <div class="vscocontainer">
+          <div class="vscoicon">
+            <a style="display: inline-block; border: 0; text-decoration: none;" href="http://vsco.co/rodolfohernandez"><img class="iconimages" src="http://assets.vsco.co/assets/images/assets/Logo_black_16.png" alt="VSCO Logo" /></a>
           </div>
-          <div class="igcontainer">
-            <div class="instagramicon">
-                <a style="display: inline-block; border: 0; text-decoration: none;" href="https://www.instagram.com/rodolfo.eduardo/?ref=badge"><img class= "iconimages" src="Images/instagramlogo.png" alt="Instagram" /></a>
-            </div>
+        </div>
+        <div class="igcontainer">
+          <div class="instagramicon">
+            <a style="display: inline-block; border: 0; text-decoration: none;" href="https://www.instagram.com/rodolfo.eduardo/?ref=badge"><img class= "iconimages" src="Images/instagramlogo.png" alt="Instagram" /></a>
           </div>
         </div>
-      </header>
+      </div>
     </div>
-    <div class="heroimage">
-      <!-- Image contained in main CSS file -->
+    <div class="innerColumn">
+      <div class="heroimage">
+        <!-- Image contained in main CSS file -->
+      </div>
     </div>
   </div>
 </body>
