@@ -383,34 +383,44 @@ textarea {
 /* Media Queries */
 /* Media Query: Desktop, ~1024px */
 @media (min-width: 1000px) and (max-width: 2000px) {
+  * { border: 1px solid red;}
+
   html, body {
-    height: 100%;
     padding: 0px;
     margin: 0px;
-    overflow-x: hidden;
+    overflow: hidden;
   }
 
   body {
-    margin-left: 200px;
-    margin-right: 200px;
-  }
-
-  header {
-    height: 100%
+    width: auto;
+    min-height: 100%;
   }
 
   h1 {
-    font-size: 85px;
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .divider {
+    width: 10%;
+    padding-top: 10%;
   }
 
   p {
     font-size: 30px;
   }
 
-  .copycontainer {
-    height: 100%;
-    width: 20%;
+  .homeOuterColumn {
+    width: 25%;
+    padding: 0px;
     float: left;
+  }
+
+  .homeInnerColumn {
+    overflow: hidden;
   }
 
   /* .hamburgler-icon-wrapper {
@@ -430,22 +440,45 @@ textarea {
   }
 
   .mainLogoContainer {
+    display: block;
     width: 60px;
-    height: 60px;
+    height: inherit;
     margin: 0px;
+    padding-top: 75px;
   }
 
-	.mainlogo {
-		width: 60px;
+  .aboutLogoContainer {
     height: 60px;
-	}
-
-/*
-   Hero Image
-  .heroimage {
-    margin-left: 20%;
-    height: 100%;
-    background-image: url('../Images/heroImage.png') ;
-    background-size: cover;
   }
-*/
+
+  .homeLogoContainer {
+    display: block;
+    width: 60px;
+    height: inherit;
+    margin: auto;
+  }
+
+  .mainlogo {
+    width: 60px;
+    display: block;
+  }
+
+  .homeLogo {
+    width: 60px;
+    display: block;
+    margin: auto;
+  }
+
+  .homeMenu {
+    margin: 35px;
+  }
+
+  .homeNavItem {
+    text-decoration: none;
+    color: #000000;
+  }
+
+/*Hero Image
+  .heroImage {
+    margin-left: 20%;
+  } */
