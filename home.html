@@ -58,49 +58,19 @@
     <!-- Header starts here, includes Navigation menu -->
     <div class="homeOuterColumn">
         <div class="aboutlogocontainer">
-          <a class="mainLogoContainer" href="//rodolfoeduardo.com">
-             <img border="0" class="mainlogo" alt="mainlogo" src="Images/HomeLogo.png"/>
+          <a class="homeLogoContainer" href="//rodolfoeduardo.com">
+             <img border="0" class="homeLogo" alt="mainlogo" src="Images/HomeLogo.png"/>
           </a>
         </div>
-        <h1 class="homePageTitle">Rodolfo Hernandez</h1>
+        <h1 class="homePageTitle">Rodolfo Eduardo</h1>
         <h2>Writer & Entrepreneur</h2>
         <div class="divider"></div>
         <!-- uses Hamburgler code, match '#' too code above -->
-        <div class="hamburgler-menu">
-          <ul class="hamburgler-menu-list">
-            <li><a class="navigationitem" href="about.html">About</a></li>
-            <li><a class="navigationitem" href="poems.html">Poems</a></li>
-            <li><a class="navigationitem" href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-
-        <div id="hamburgler" class="hamburgler-icon-wrapper">
-          <span class="hamburgler-icon"></span>
-        </div>
-        <!-- End Hamburgler required code -->
-
-      <script>
-        document.getElementById('hamburgler').addEventListener('click', checkNav);
-        window.addEventListener("keyup", function(e) {
-          if (e.keyCode == 27) closeNav();
-        }, false);
-
-        function checkNav() {
-          if (document.body.classList.contains('hamburgler-active')) {
-            closeNav();
-          } else {
-            openNav();
-          }
-        }
-
-        function closeNav() {
-          document.body.classList.remove('hamburgler-active');
-        }
-
-        function openNav() {
-          document.body.classList.add('hamburgler-active');
-        }
-      </script>
+        <ul class="homeNav">
+          <li class="homeMenu"><a class="homeNavItem" href="about.html">About</a></li>
+          <li class="homeMenu"><a class="homeNavItem" href="poems.html">Poems</a></li>
+          <li class="homeMenu"><a class="homeNavItem" href="contact.html">Contact</a></li>
+        </ul>
 
       <div class="socialmediaicons">
         <div class="vscocontainer">
@@ -116,8 +86,8 @@
       </div>
     </div>
     <div id="frontImage">
-      <div class="heroimage">
-        <img border="0" alt="heroImage" src="Images/heroImage.png"/>
+      <div>
+        <img border="0" class="heroImage" alt="heroImage" src="Images/heroImage.png"/>
       </div>
     </div>
   </div>

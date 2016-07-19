@@ -159,13 +159,20 @@ img {
 
 /* Page code starts here */
 
+/* * { border: 1px solid red;} */
+
 html, body {
   overflow-x: hidden;
+}
+
+html {
+  height: 100%;
 }
 
 body {
   margin: 40px;
   width: auto;
+  min-height: 100%;
 }
 
 #homePageBody {
@@ -181,6 +188,7 @@ h1 {
 
 h2 {
   font-family: "Crimson Text", Serif;
+  font-size: 17px;
   text-align: center;
   font-weight: normal;
 }
@@ -203,6 +211,10 @@ li {
   margin: 20px;
 }
 
+.homeMenu {
+  margin: 13px;
+}
+
 form {
   display: block;
   text-align: left;
@@ -218,10 +230,15 @@ form {
   color: #ffffff;
 }
 
+.homeNavItem {
+  text-decoration: none;
+  color: #000000;
+}
+
 .divider {
   margin: auto;
   width: 20%;
-  padding-top: 5%;
+  padding-top: 4%;
   border-bottom: 1px solid #d3d3d3;
 }
 
@@ -241,7 +258,11 @@ form {
 }
 
 .homePageTitle {
-  padding-top: 20px;
+  padding-top: 3%;
+}
+
+.pageTitle {
+  padding-top: 5px;
 }
 
 .aboutLogoContainer {
@@ -253,9 +274,22 @@ form {
   height: inherit;
 }
 
+.homeLogoContainer {
+  display: block;
+  width: 40px;
+  height: inherit;
+  margin: auto;
+}
+
 .mainlogo {
   width: 40px;
   display: block;
+}
+
+.homeLogo {
+  width: 40px;
+  display: block;
+  margin: auto;
 }
 
 .innerColumn {
@@ -264,7 +298,6 @@ form {
   width: auto;
   text-align: left;
 }
-
 
 .contactTitle {
   margin-bottom: 0px;
@@ -301,7 +334,7 @@ textarea {
 .socialmediaicons {
 	display: block;
 	margin: auto;
-	padding-top: 3%;
+	padding-bottom: 4%;
 	overflow: hidden;
 }
 
@@ -333,8 +366,8 @@ textarea {
 	margin: 0px;
 }
 
-.heroimage {
-
+.heroImage {
+  display: block;
 }
 
 /* Hero Image
