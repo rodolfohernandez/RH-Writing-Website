@@ -168,6 +168,10 @@ body {
   width: auto;
 }
 
+#homePageBody {
+  margin: 0px;
+}
+
 h1 {
   font-family: "Playfair Display", Serif;
   font-size: 25px;
@@ -178,8 +182,7 @@ h1 {
 h2 {
   font-family: "Crimson Text", Serif;
   text-align: center;
-  padding-left: 25px;
-  padding-right: 25px;
+  font-weight: normal;
 }
 
 p {
@@ -215,6 +218,13 @@ form {
   color: #ffffff;
 }
 
+.divider {
+  margin: auto;
+  width: 20%;
+  padding-top: 5%;
+  border-bottom: 1px solid #d3d3d3;
+}
+
 .portrait {
   display: block;
   padding-top: 10px;
@@ -224,14 +234,28 @@ form {
   height: 100px;
 }
 
-.mainLogoContainer {
-  width: 40px;
+.homeOuterColumn {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+}
+
+.homePageTitle {
+  padding-top: 20px;
+}
+
+.aboutLogoContainer {
   height: 40px;
+}
+
+.mainLogoContainer {
+  display: block;
+  height: inherit;
 }
 
 .mainlogo {
   width: 40px;
-  height: 40px;
+  display: block;
 }
 
 .innerColumn {
@@ -240,6 +264,7 @@ form {
   width: auto;
   text-align: left;
 }
+
 
 .contactTitle {
   margin-bottom: 0px;
@@ -284,7 +309,7 @@ textarea {
 	float: left;
 	margin: 0px;
 	width: 48%;
-	padding-top: 5px;
+	padding-top: 2%;
 }
 
 .vscoicon {
@@ -295,7 +320,7 @@ textarea {
 	float: right;
 	width: 48%;
 	margin: 0px;
-	padding-top: 5px;
+	padding-top: 2%;
 }
 
 .instagramicon {
@@ -308,13 +333,19 @@ textarea {
 	margin: 0px;
 }
 
-/* Hero Image */
+.heroimage {
+
+}
+
+/* Hero Image
 .heroimage {
   display: block;
-  height: 240px;
+  height: 100%;
   background-image: url('../Images/heroImage.png') ;
   background-size: cover;
 }
+
+*/
 
 /* Media Queries */
 /* Media Query: Desktop, ~1024px */
@@ -376,11 +407,12 @@ textarea {
     height: 60px;
 	}
 
-
-  /* Hero Image */
+/*
+   Hero Image
   .heroimage {
     margin-left: 20%;
     height: 100%;
     background-image: url('../Images/heroImage.png') ;
     background-size: cover;
   }
+*/
