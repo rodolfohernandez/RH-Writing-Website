@@ -1,0 +1,321 @@
+/* Foundation (v1.0) */
+html, body {
+  height: 100%;
+}
+
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  line-height: 1;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+p,
+blockquote,
+img,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+main,
+li {
+  display: block;
+}
+
+h1,
+h2 {
+  font-size: inherit;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a,
+button {
+  color: inherit;
+  transition: .3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  overflow: visible;
+  border: 0;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer;
+}
+
+::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+/* End Foundation code*/
+
+/* Main code starts here */
+/* Page structure */
+.container {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0px;
+}
+
+.col1, .col2 {
+  float: left;
+}
+
+.col1 {
+  width: 25%;
+  height: 100%;
+}
+
+.col2 {
+  width: 75%;
+  height: 100%;
+  background-image: url('../Images/heroImage.png');
+  background-size: cover;
+}
+
+/* Logo */
+.logoContainer {
+  position: relative;
+  height: 20%;
+}
+
+.homeLogo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  margin: auto;
+}
+
+/* Titles */
+.titleContainer {
+  position: relative;
+  height: 70%;
+}
+
+h1 {
+  font-family: "Playfair Display", Serif;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.homePageTitle {
+  padding-top: 5%;
+}
+
+h2 {
+  font-family: "Crimson Text", Serif;
+  font-size: 17px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.homeSubHeading {
+  padding-top: 2%;
+}
+
+.divider {
+  margin: auto;
+  width: 10%;
+  padding-top: 5%;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+/* Home Navigation */
+p {
+  font-family: "Crimson Text", Sans-Serif;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  text-align: center;
+  font-family: "Droid Sans", Sans-Serif;
+}
+
+li {
+  margin: 10%;
+}
+
+/* Social Media Icons */
+
+.iconContainer {
+	position: relative;
+	height: 10%;
+}
+
+.iconSubContainer {
+  display: block;
+  margin: auto;
+  padding-bottom: 7%;
+}
+
+.vscocontainer {
+	float: left;
+	margin: 0px;
+	width: 48%;
+	padding-top: 2%;
+}
+
+.vscoicon {
+	text-align: right;
+}
+
+.igcontainer {
+	float: right;
+	width: 48%;
+	margin: 0px;
+	padding-top: 2%;
+}
+
+.instagramicon {
+	text-align: left;
+}
+
+.iconimages {
+	width: 1em;
+	height: 1em;
+	margin: 0px;
+}
+
+
+/* Media Queries */
+/* Media Query: Tablet */
+@media (max-width: 768px) {
+
+  .col1, .col2 {
+    float: none;
+  }
+
+  .col1 {
+    width: 100%;
+    height: 55%;
+  }
+
+  .col2 {
+    width: 100%;
+    height: 45%
+  }
+
+  /* Logo */
+  .logoContainer {
+    position: relative;
+    height: 20%;
+  }
+
+  .homeLogo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 55px;
+    margin: auto;
+  }
+
+  /* Home Navigation */
+  p {
+    font-family: "Crimson Text", Sans-Serif;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+    font-family: "Droid Sans", Sans-Serif;
+  }
+
+  li {
+    margin: 5%;
+  }
+
+
+}
+
+/* Media Query: Mobile */
+@media (max-width: 360px)
+  and (max-device-width: 667px) {
+
+  body {
+    overflow: scroll;
+  }
+
+  .col1, .col2 {
+    float: none;
+  }
+
+  .col1 {
+    width: 100%;
+    height: 55%;
+  }
+
+  .col2 {
+    width: 100%;
+    height: 45%
+  }
+
+  /* Home Navigation */
+  p {
+    font-family: "Crimson Text", Sans-Serif;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+    font-family: "Droid Sans", Sans-Serif;
+  }
+
+  li {
+    margin: 4%;
+  }
+
+  /* Logo */
+  .homeLogo {
+    width: 34px;
+  }
+
+  /* Social Media Icons */
+  .iconimages {
+  	width: 0.75em;
+  	height: 0.75em;
+  	margin: 0px;
+  }
+}
