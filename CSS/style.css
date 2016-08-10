@@ -77,11 +77,9 @@ img {
 
 /* Hamburgler code */
 .hamburgler-icon-wrapper {
-  position: absolute;
-  top: 15%;
-  right: 5%;
   height: 26px;
   width: 26px;
+  float: right;
   cursor: pointer
 }
 
@@ -195,6 +193,18 @@ img {
 .logoContainer {
   position: relative;
   height: 20%;
+}
+
+.mainLogoContainer {
+  overflow: hidden;
+  display: block;
+  margin: 0px;
+  width: 65px;
+  height: 65px;
+}
+
+.mainlogo {
+  display: block
 }
 
 .homeLogo {
@@ -375,6 +385,20 @@ li {
 }
 
 /* Media Queries */
+@media (min-width: 801px)
+and (max-width: 1000px)
+and (orientation: portrait) {
+
+  .hamburgler-icon-wrapper {
+    position: absolute;
+    top: 3%;
+    right: 6%;
+    height: 26px;
+    width: 26px;
+    cursor: pointer
+  }
+}
+
 @media (min-width: 551px)
 and (max-width: 800px)
 and (orientation: portrait) {
