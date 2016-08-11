@@ -1,3 +1,57 @@
+.hamburgler-icon-wrapper {
+  position: absolute;
+  top: 9.5%;
+  right: 4%;
+  height: 26px;
+  width: 26px;
+  cursor: pointer }
+
+.hamburgler-icon, .hamburgler-icon:before, .hamburgler-icon:after {
+  content: '';
+  position: absolute;
+  border-radius: 1em;
+  height: 2px;
+  width: 26px;
+  background: black;
+  transition: all 0.2s ease }
+.hamburgler-icon        { top: 0.75em  }
+.hamburgler-icon:before { top: -0.55em }
+.hamburgler-icon:after  { top: 0.55em  }
+.hamburgler-active .hamburgler-icon { background: transparent; transform: rotate(-135deg) }
+.hamburgler-active .hamburgler-icon:before, .hamburgler-active .hamburgler-icon:after { top: 0 }
+.hamburgler-active .hamburgler-icon:before { transform: rotate(90deg) }
+.hamburgler-active .hamburgler-icon, .hamburgler-active .hamburgler-icon:before, .hamburgler-active .hamburgler-icon:after {
+  background: white }
+
+.hamburgler-menu {
+  transition: all 0.4s ease;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.9);
+  color: white;
+  text-align: center }
+.hamburgler-active .hamburgler-menu {
+  opacity: 1;
+  pointer-events: initial; }
+.hamburgler-menu-list {
+  display: block;
+  transition: all 0.4s ease;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.2) }
+.hamburgler-active .hamburgler-menu-list {
+  transform: translate(-50%, -50%) scale(1) }
+
+
+
 /* Foundation (v1.0) */
 html, body {
   height: 100%;
@@ -73,94 +127,7 @@ img {
   border: 0;
 }
 /* End Foundation code*/
-/* Hamburgler */
-
 /* Hamburgler code */
-.hamburgler-icon-wrapper {
-  height: 26px;
-  width: 26px;
-  float: right;
-  cursor: pointer
-}
-
-.hamburgler-icon,
-.hamburgler-icon:before,
-.hamburgler-icon:after {
-  content: '';
-  position: absolute;
-  border-radius: 1em;
-  height: 2px;
-  width: 26px;
-  background: black;
-  transition: all 0.2s ease
-}
-
-.hamburgler-icon {
-  top: 0.75em
-}
-
-.hamburgler-icon:before {
-  top: -0.55em
-}
-
-.hamburgler-icon:after {
-  top: 0.55em
-}
-
-.hamburgler-active .hamburgler-icon {
-  background: transparent;
-  transform: rotate(-135deg)
-}
-
-.hamburgler-active .hamburgler-icon:before,
-.hamburgler-active .hamburgler-icon:after {
-  top: 0
-}
-
-.hamburgler-active .hamburgler-icon:before {
-  transform: rotate(90deg)
-}
-
-.hamburgler-active .hamburgler-icon,
-.hamburgler-active .hamburgler-icon:before,
-.hamburgler-active .hamburgler-icon:after {
-  background: white
-}
-
-.hamburgler-menu {
-  transition: all 0.4s ease;
-  opacity: 0;
-  pointer-events: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.9);
-  color: white;
-  text-align: center
-}
-
-.hamburgler-active .hamburgler-menu {
-  opacity: 1;
-  pointer-events: initial;
-}
-
-.hamburgler-menu-list {
-  display: block;
-  transition: all 0.4s ease;
-  padding: 0;
-  list-style-type: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) scale(1.2)
-}
-
-.hamburgler-active .hamburgler-menu-list {
-  transform: translate(-50%, -50%) scale(1)
-}
-
 /* End Hamburgler code */
 
 
@@ -196,11 +163,13 @@ img {
 }
 
 .mainLogoContainer {
-  overflow: hidden;
-  display: block;
+  position: absolute;
+  top: 6%;
+  left: 4%;
   margin: 0px;
   width: 65px;
   height: 65px;
+  cursor: pointer;
 }
 
 .mainlogo {
@@ -376,28 +345,10 @@ li {
   height: 80%;
   margin-left: 0px;
   margin-right: 0px;
-}
-
-.aboutlogocontainer {
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 
 /* Media Queries */
-@media (min-width: 801px)
-and (max-width: 1000px)
-and (orientation: portrait) {
-
-  .hamburgler-icon-wrapper {
-    position: absolute;
-    top: 3%;
-    right: 6%;
-    height: 26px;
-    width: 26px;
-    cursor: pointer
-  }
-}
 
 @media (min-width: 551px)
 and (max-width: 800px)
@@ -417,31 +368,25 @@ and (orientation: portrait) {
     height: 45%;
   }
 
-  .hamburgler-icon-wrapper {
-    position: absolute;
-    top: 6%;
-    right: 6%;
-    height: 26px;
-    width: 26px;
-    cursor: pointer
-  }
 
   /* About Page */
   .pageTitle {
     padding-top: 10%;
-    font-size: 4em;
+    font-size: 1em;
   }
 
   .portrait {
     display: block;
     margin: auto;
     padding: 10%;
+    width: 240px;
+    height: 240px;
   }
 
   .aboutCopy {
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 1.8em;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.0em;
     line-height: 1.25;
   }
 
@@ -478,6 +423,16 @@ and (orientation: portrait) {
   }
 }
 
+  .mainLogoContainer {
+  position: absolute;
+  top: 6%;
+  left: 8%;
+  margin: 0px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
 @media (min-width: 320px)
 and (max-width: 550px)
 and (orientation: portrait){
@@ -496,7 +451,13 @@ and (orientation: portrait){
     height: 45%;
   }
 
-
+  .portrait {
+    display: block;
+    margin: auto;
+    padding: 10%;
+    width: 180px;
+    height: 180px;
+  }
 
   /* Home Navigation */
   p {
@@ -517,10 +478,52 @@ and (orientation: portrait){
     margin: 4%;
   }
 
+  .hamburgler-icon-wrapper {
+    position: absolute;
+    top: 9.5%;
+    right: 8%;
+    height: 26px;
+    width: 26px;
+    cursor: pointer }
+
+  .hamburgler-icon, .hamburgler-icon:before, .hamburgler-icon:after {
+    content: '';
+    position: absolute;
+    border-radius: 1em;
+    height: 2px;
+    width: 26px;
+    background: black;
+    transition: all 0.2s ease }
+
+  /* About Page */
+
+  .pageTitle {
+    padding-top: 10%;
+    font-size: 2em;
+  }
+
+  .portrait {
+    display: block;
+    margin: auto;
+    padding: 10%;
+  }
+
+  .aboutCopy {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1em;
+    line-height: 1.25;
+  }
+
   /* Logo */
   .homeLogo {
     width: 40px;
     height: 40px;
+  }
+
+  .mainLogoContainer {
+    width: 50px;
+    height: 50px;
   }
 
   /* Social Media Icons */
@@ -553,6 +556,27 @@ and (orientation: landscape) {
     font-weight: normal;
   }
 
+  /* About Page */
+
+  .pageTitle {
+    padding-top: 10%;
+    font-size: 3.5em;
+  }
+
+  .portrait {
+    display: block;
+    margin: auto;
+    padding: 10%;
+    width: 240px;
+    height: 240px;
+  }
+
+  .aboutCopy {
+    margin-left: 23%;
+    margin-right: 23%;
+    font-size: 1.75em;
+    line-height: 1.25;
+  }
 
   /* Home Navigation */
   p {
