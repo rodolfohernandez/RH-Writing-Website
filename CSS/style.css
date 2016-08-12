@@ -428,8 +428,8 @@ and (orientation: portrait) {
   top: 6%;
   left: 8%;
   margin: 0px;
-  width: 50px;
-  height: 50px;
+  width: 64px;
+  height: 64px;
   cursor: pointer;
 }
 
