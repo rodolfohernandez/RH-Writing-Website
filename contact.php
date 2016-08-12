@@ -73,7 +73,7 @@
         <ul class="hamburgler-menu-list">
           <li><a class="navigationitem" href="about.html">About</a></li>
           <li><a class="navigationitem" href="poems.html">Poems</a></li>
-          <li><a class="navigationitem" href="contact.html">Contact</a></li>
+          <li><a class="navigationitem" href="contact.php">Contact</a></li>
         </ul>
       </div>
 
