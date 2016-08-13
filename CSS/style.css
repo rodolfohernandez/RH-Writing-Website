@@ -254,8 +254,8 @@ li {
 }
 
 .aboutCopy {
-  margin-left: 23%;
-  margin-right: 23%;
+  margin-left: 25.5%;
+  margin-right: 25.5%;
   font-size: 2em;
   line-height: 1.25;
 }
@@ -372,7 +372,7 @@ and (orientation: portrait) {
   /* About Page */
   .pageTitle {
     padding-top: 10%;
-    font-size: 1em;
+    font-size: 2.5em;
   }
 
   .portrait {
@@ -386,7 +386,7 @@ and (orientation: portrait) {
   .aboutCopy {
     margin-left: 20%;
     margin-right: 20%;
-    font-size: 1.0em;
+    font-size: 1.25em;
     line-height: 1.25;
   }
 
@@ -421,6 +421,12 @@ and (orientation: portrait) {
     height: 0.75em;
     margin: 0px;
   }
+
+  .iconAboutImages {
+  	width: 1em;
+  	height: 1em;
+  	margin: 0px;
+  }
 }
 
   .mainLogoContainer {
@@ -428,10 +434,27 @@ and (orientation: portrait) {
   top: 6%;
   left: 8%;
   margin: 0px;
-  width: 64px;
-  height: 64px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
 }
+
+.hamburgler-icon-wrapper {
+  position: absolute;
+  top: 8.2%;
+  right: 8%;
+  height: 26px;
+  width: 26px;
+  cursor: pointer }
+
+.hamburgler-icon, .hamburgler-icon:before, .hamburgler-icon:after {
+  content: '';
+  position: absolute;
+  border-radius: 1em;
+  height: 2px;
+  width: 26px;
+  background: black;
+  transition: all 0.2s ease }
 
 @media (min-width: 320px)
 and (max-width: 550px)
@@ -480,7 +503,7 @@ and (orientation: portrait){
 
   .hamburgler-icon-wrapper {
     position: absolute;
-    top: 9.5%;
+    top: 8.50%;
     right: 8%;
     height: 26px;
     width: 26px;
@@ -498,7 +521,7 @@ and (orientation: portrait){
   /* About Page */
 
   .pageTitle {
-    padding-top: 10%;
+    padding-top: 20%;
     font-size: 2em;
   }
 
@@ -522,8 +545,8 @@ and (orientation: portrait){
   }
 
   .mainLogoContainer {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
   }
 
   /* Social Media Icons */
@@ -532,7 +555,115 @@ and (orientation: portrait){
     height: 0.75em;
     margin: 0px;
   }
+
+  .iconAboutImages {
+    width: 1em;
+    height: 1em;
+    margin: 0px;
+  }
 }
+
+@media (min-width: 769px)
+and (max-width: 1024px)
+and (orientation: landscape) {
+
+  h1 {
+    font-family: "Playfair Display", Serif;
+    font-size: 1.15em;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .homePageTitle {
+    padding-top: 5%;
+  }
+
+  h2 {
+    font-family: "Crimson Text", Serif;
+    font-size: .75em;
+    text-align: center;
+    font-weight: normal;
+  }
+
+  /* About Page */
+
+  .pageTitle {
+    padding-top: 15%;
+    font-size: 3em;
+  }
+
+  .portrait {
+    display: block;
+    margin: auto;
+    padding: 10%;
+    width: 240px;
+    height: 240px;
+  }
+
+  .aboutCopy {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1.75em;
+    line-height: 1.25;
+  }
+
+  /* Home Navigation */
+  p {
+    font-family: "Crimson Text", Sans-Serif;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+    font-family: "Droid Sans", Sans-Serif;
+  }
+
+  li {
+    margin: 7%;
+    font-size: .90em;
+  }
+
+  .hamburgler-icon-wrapper {
+    position: absolute;
+    top: 9.25%;
+    right: 8%;
+    height: 26px;
+    width: 26px;
+    cursor: pointer }
+
+  .hamburgler-icon, .hamburgler-icon:before, .hamburgler-icon:after {
+    content: '';
+    position: absolute;
+    border-radius: 1em;
+    height: 2px;
+    width: 26px;
+    background: black;
+    transition: all 0.2s ease }
+
+  /* Logo */
+  .homeLogo {
+    width: 33px;
+    height: 33px;
+  }
+
+  .mainLogoContainer {
+    width: 50px;
+    height: 50px;
+  }
+  /* Social Media Icons */
+  .iconimages {
+    width: 0.65em;
+    height: 0.65em;
+    margin: 0px;
+  }
+}
+
+
+
 
 @media (min-width: 320px)
 and (max-width: 768px)
@@ -559,7 +690,7 @@ and (orientation: landscape) {
   /* About Page */
 
   .pageTitle {
-    padding-top: 10%;
+    padding-top: 15%;
     font-size: 3.5em;
   }
 
@@ -572,9 +703,9 @@ and (orientation: landscape) {
   }
 
   .aboutCopy {
-    margin-left: 23%;
-    margin-right: 23%;
-    font-size: 1.75em;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1.5em;
     line-height: 1.25;
   }
 
@@ -598,12 +729,33 @@ and (orientation: landscape) {
     font-size: .90em;
   }
 
+  .hamburgler-icon-wrapper {
+    position: absolute;
+    top: 9.25%;
+    right: 8%;
+    height: 26px;
+    width: 26px;
+    cursor: pointer }
+
+  .hamburgler-icon, .hamburgler-icon:before, .hamburgler-icon:after {
+    content: '';
+    position: absolute;
+    border-radius: 1em;
+    height: 2px;
+    width: 26px;
+    background: black;
+    transition: all 0.2s ease }
+
   /* Logo */
   .homeLogo {
     width: 33px;
     height: 33px;
   }
 
+  .mainLogoContainer {
+    width: 45px;
+    height: 45px;
+  }
   /* Social Media Icons */
   .iconimages {
     width: 0.65em;
