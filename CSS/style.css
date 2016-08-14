@@ -348,6 +348,39 @@ li {
   padding-top: 10%;
 }
 
+.igMainContainer {
+  height: 100%;
+}
+
+.igRow1 {
+  height: 33%;
+  text-align: center;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.instagramPhoto {
+  display: inline-block;
+  height: 100%;
+  width: 31%;
+  padding: 1%;
+}
+
+.igRow2 {
+  height: 33%;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.igRow3 {
+  height: 33%;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 /* Media Queries */
 
 @media (min-width: 551px)
