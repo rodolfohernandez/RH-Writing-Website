@@ -352,6 +352,7 @@ li {
   height: 100%;
 }
 
+/* Poems */
 .igRow1 {
   height: 33%;
   text-align: center;
@@ -360,7 +361,7 @@ li {
   padding-right: 10%;
 }
 
-.instagramPhoto {
+.instagramPhoto1, .instagramPhoto2, .instagramPhoto3 {
   display: inline-block;
   height: 100%;
   width: 31%;
@@ -460,7 +461,6 @@ and (orientation: portrait) {
   	height: 1em;
   	margin: 0px;
   }
-}
 
   .mainLogoContainer {
   position: absolute;
@@ -472,22 +472,57 @@ and (orientation: portrait) {
   cursor: pointer;
 }
 
-.hamburgler-icon-wrapper {
-  position: absolute;
-  top: 8.2%;
-  right: 8%;
-  height: 26px;
-  width: 26px;
-  cursor: pointer }
+  .hamburgler-icon-wrapper {
+    position: absolute;
+    top: 8.2%;
+    right: 8%;
+    height: 26px;
+    width: 26px;
+    cursor: pointer }
 
-.hamburgler-icon, .hamburgler-icon:before, .hamburgler-icon:after {
-  content: '';
-  position: absolute;
-  border-radius: 1em;
-  height: 2px;
-  width: 26px;
-  background: black;
-  transition: all 0.2s ease }
+  .hamburgler-icon, .hamburgler-icon:before, .hamburgler-icon:after {
+    content: '';
+    position: absolute;
+    border-radius: 1em;
+    height: 2px;
+    width: 26px;
+    background: black;
+    transition: all 0.2s ease }
+
+  /* Poems */
+  .igRow1 {
+    height: 33%;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .instagramPhoto1, .instagramPhoto2 {
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+    padding: 1%;
+  }
+
+  .instagramPhoto3 {
+    display: none;
+  }
+
+  .igRow2 {
+    height: 33%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .igRow3 {
+    height: 33%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
 
 @media (min-width: 320px)
 and (max-width: 550px)
@@ -594,6 +629,11 @@ and (orientation: portrait){
     height: 1em;
     margin: 0px;
   }
+
+  
+
+
+
 }
 
 @media (min-width: 769px)
