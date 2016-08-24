@@ -127,9 +127,6 @@ img {
   border: 0;
 }
 /* End Foundation code*/
-/* Hamburgler code */
-/* End Hamburgler code */
-
 
 /* Main code starts here */
 /* Page structure */
@@ -463,14 +460,14 @@ and (orientation: portrait) {
   }
 
   .mainLogoContainer {
-  position: absolute;
-  top: 6%;
-  left: 8%;
-  margin: 0px;
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-}
+    position: absolute;
+    top: 6%;
+    left: 8%;
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
 
   .hamburgler-icon-wrapper {
     position: absolute;
@@ -498,15 +495,11 @@ and (orientation: portrait) {
     padding-right: 2%;
   }
 
-  .instagramPhoto1, .instagramPhoto2 {
+  .instagramPhoto1, .instagramPhoto2, .instagramPhoto3 {
     display: inline-block;
     height: 100%;
-    width: 35%;
+    width: 28%;
     padding: 1%;
-  }
-
-  .instagramPhoto3 {
-    display: none;
   }
 
   .igRow2 {
@@ -630,7 +623,35 @@ and (orientation: portrait){
     margin: 0px;
   }
 
-  
+  /* Poems */
+  .igRow1 {
+    height: 33%;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .instagramPhoto1, .instagramPhoto2, .instagramPhoto3 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+  }
+
+  .igRow2 {
+    height: 33%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .igRow3 {
+    height: 33%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 
 
 
@@ -727,16 +748,44 @@ and (orientation: landscape) {
     width: 50px;
     height: 50px;
   }
+
   /* Social Media Icons */
   .iconimages {
     width: 0.65em;
     height: 0.65em;
     margin: 0px;
   }
+
+  /* Poems */
+  .igRow1 {
+    height: 33%;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .instagramPhoto1, .instagramPhoto2, .instagramPhoto3 {
+    display: inline-block;
+    height: 100%;
+    width: 27%;
+    padding: 1%;
+  }
+
+  .igRow2 {
+    height: 33%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .igRow3 {
+    height: 33%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
-
-
-
 
 @media (min-width: 320px)
 and (max-width: 768px)
@@ -834,5 +883,35 @@ and (orientation: landscape) {
     width: 0.65em;
     height: 0.65em;
     margin: 0px;
+  }
+
+  /* Poems */
+  .igRow1 {
+    height: 33%;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .instagramPhoto1, .instagramPhoto2, .instagramPhoto3 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 1%;
+  }
+
+  .igRow2 {
+    height: 33%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .igRow3 {
+    height: 33%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
