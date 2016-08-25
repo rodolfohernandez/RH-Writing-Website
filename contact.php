@@ -41,10 +41,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <!-- End space for JQuery -->
 
-  <!-- Hamburgler applet, update later to reflect CSS organization (6/21/16) -->
-    <!-- <link rel="stylesheet" href="CSS/style.css"> -->
-  <link rel="stylesheet" href="CSS/hamburgler.css">
-  <!-- End Hamburgler applet -->
+  <!-- CSS -->
+  <link rel="stylesheet" href="CSS/style.css">
+  <!-- End CSS -->
 
   <!-- Google Analytics, indicates in documentation that this script be included before the closing </head> (https://developers.google.com/analytics/devguides/collection/analyticsjs/) -->
   <script>
