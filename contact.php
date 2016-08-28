@@ -70,9 +70,9 @@
         <!-- uses Hamburgler code, match '#' too code above -->
       <div class="hamburgler-menu">
         <ul class="hamburgler-menu-list">
-          <li><a class="navigationItem" href="about">About</a></li>
-          <li><a class="navigationItem" href="poems">Poems</a></li>
-          <li><a class="navigationItem" href="contact">Contact</a></li>
+          <li><a class="navigationItem" href="about.html">About</a></li>
+          <li><a class="navigationItem" href="poems.html">Poems</a></li>
+          <li><a class="navigationItem" href="contact.php">Contact</a></li>
         </ul>
       </div>
 
