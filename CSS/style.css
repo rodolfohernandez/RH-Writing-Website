@@ -183,6 +183,10 @@ img {
   margin: auto;
 }
 
+.navigationItem {
+  font-size: 2em;
+}
+
 /* Titles */
 .titleContainer {
   position: relative;
@@ -379,6 +383,84 @@ li {
   padding-right: 10%;
 }
 
+.formItem1 {
+  display: inline-block;
+  margin: 0;
+  padding-top: 5%;
+}
+
+.formItem2 {
+  display: inline-block;
+  margin: 0;
+  padding-top: 5%;
+  padding-left: 1%;
+}
+
+.textField1 {
+  border: 1px solid #000000;
+  line-height: 40px;
+  font-size: 1.1em;
+  font-family: "Crimson Text", Serif;
+  padding-left: 5px;
+  width: 295px
+}
+
+.textField2 {
+  border: 1px solid #000000;
+  line-height: 40px;
+  font-size: 1.1em;
+  font-family: "Crimson Text", Serif;
+  padding-left: 5px;
+  width: 295px
+}
+
+.formItem3 {
+  margin: 0;
+  padding-top: 2%;
+}
+
+.textField3 {
+  margin: 0;
+  width: 613px;
+  line-height: 40px;
+  font-size: 1.1em;
+  font-family: "Crimson Text", Serif;
+  padding-left: 5px;
+  border: 1px solid #000000;
+}
+
+.formItem4 {
+  margin: 0;
+  padding-top: 2%;
+}
+
+.textField4 {
+  width: 613px;
+  height: 300px;
+  font-size: 1.1em;
+  font-family: "Crimson Text", Serif;
+  padding: 0;
+  padding-left: 5px;
+  border: 1px solid #000000;
+}
+
+.formItem5 {
+  margin: 0;
+  padding-top: 4%;
+}
+
+.button {
+  width: 250px;
+  height: 50px;
+  font-size: 1.1em;
+  font-weight: normal;
+  font-family: "Crimson Text", Serif;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+
+
 /* Media Queries */
 
 @media (min-width: 551px)
@@ -438,6 +520,10 @@ and (orientation: portrait) {
 
   li {
     margin: 4%;
+  }
+
+  .navigationItem {
+    font-size: 1.5em;
   }
 
   /* Logo */
@@ -515,6 +601,86 @@ and (orientation: portrait) {
     padding-left: 2%;
     padding-right: 2%;
   }
+
+  /* Contact */
+
+  .formItem1 {
+    display: block;
+    margin: 0;
+    padding-top: 5%;
+  }
+
+  .formItem2 {
+    display: block;
+    margin: 0;
+    padding-top: 5%;
+    padding-left: 0;
+  }
+
+  .textField1 {
+    border: 1px solid #000000;
+    line-height: 40px;
+    font-size: 1.1em;
+    font-family: "Crimson Text", Serif;
+    padding-left: 5px;
+    width: 295px
+  }
+
+  .textField2 {
+    border: 1px solid #000000;
+    line-height: 40px;
+    font-size: 1.1em;
+    font-family: "Crimson Text", Serif;
+    padding-left: 5px;
+    width: 295px
+  }
+
+  .formItem3 {
+    margin: 0;
+    padding-top: 2%;
+  }
+
+  .textField3 {
+    margin: 0;
+    width: 25%;
+    line-height: 40px;
+    font-size: 1.1em;
+    font-family: "Crimson Text", Serif;
+    padding-left: 5px;
+    border: 1px solid #000000;
+  }
+
+  .formItem4 {
+    margin: 0;
+    padding-top: 2%;
+  }
+
+  .textField4 {
+    width: 50%;
+    height: 300px;
+    font-size: 1.1em;
+    font-family: "Crimson Text", Serif;
+    padding: 0;
+    padding-left: 5px;
+    border: 1px solid #000000;
+  }
+
+  .formItem5 {
+    margin: 0;
+    padding-top: 4%;
+  }
+
+  .button {
+    width: 200px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: "Crimson Text", Serif;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+  }
+
 }
 
 @media (min-width: 320px)
@@ -560,6 +726,10 @@ and (orientation: portrait){
 
   li {
     margin: 4%;
+  }
+
+  .navigationItem {
+    font-size: 1em;
   }
 
   .hamburgler-icon-wrapper {
@@ -654,6 +824,84 @@ and (orientation: portrait){
   }
 
 
+    /* Contact */
+
+    .formItem1 {
+      display: block;
+      margin: 0;
+      padding-top: 5%;
+    }
+
+    .formItem2 {
+      display: block;
+      margin: 0;
+      padding-top: 2%;
+      padding-left: 0;
+    }
+
+    .textField1 {
+      border: 1px solid #000000;
+      line-height: 30px;
+      font-size: 1em;
+      font-family: "Crimson Text", Serif;
+      padding-left: 5px;
+      width: 50%;
+    }
+
+    .textField2 {
+      border: 1px solid #000000;
+      line-height: 30px;
+      font-size: 1em;
+      font-family: "Crimson Text", Serif;
+      padding-left: 5px;
+      width: 50%;
+    }
+
+    .formItem3 {
+      margin: 0;
+      padding-top: 2%;
+    }
+
+    .textField3 {
+      margin: 0;
+      width: 50%;
+      line-height: 30px;
+      font-size: 1em;
+      font-family: "Crimson Text", Serif;
+      padding-left: 5px;
+      border: 1px solid #000000;
+    }
+
+    .formItem4 {
+      margin: 0;
+      padding-top: 2%;
+    }
+
+    .textField4 {
+      width: 50%;
+      height: 200px;
+      font-size: 1em;
+      font-family: "Crimson Text", Serif;
+      padding: 0;
+      padding-left: 5px;
+      border: 1px solid #000000;
+    }
+
+    .formItem5 {
+      margin: 0;
+      padding-top: 4%;
+    }
+
+    .button {
+      width: 100px;
+      height: 30px;
+      font-size: 1em;
+      font-weight: normal;
+      font-family: "Crimson Text", Serif;
+      background-color: #000000;
+      color: #ffffff;
+      border: 1px solid #000000;
+    }
 
 }
 
@@ -719,6 +967,10 @@ and (orientation: landscape) {
   li {
     margin: 7%;
     font-size: .90em;
+  }
+
+  .navigationItem {
+    font-size: 1.5em;
   }
 
   .hamburgler-icon-wrapper {
@@ -851,6 +1103,10 @@ and (orientation: landscape) {
     font-size: .90em;
   }
 
+  .navigationItem {
+    font-size: 1em;
+  }
+
   .hamburgler-icon-wrapper {
     position: absolute;
     top: 9.25%;
@@ -913,5 +1169,84 @@ and (orientation: landscape) {
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
+  }
+
+  /* Contact */
+
+  .formItem1 {
+    display: block;
+    margin: 0;
+    padding-top: 5%;
+  }
+
+  .formItem2 {
+    display: block;
+    margin: 0;
+    padding-top: 2%;
+    padding-left: 0;
+  }
+
+  .textField1 {
+    border: 1px solid #000000;
+    line-height: 40px;
+    font-size: 1.1em;
+    font-family: "Crimson Text", Serif;
+    padding-left: 5px;
+    width: 50%;
+  }
+
+  .textField2 {
+    border: 1px solid #000000;
+    line-height: 40px;
+    font-size: 1.1em;
+    font-family: "Crimson Text", Serif;
+    padding-left: 5px;
+    width: 50%;
+  }
+
+  .formItem3 {
+    margin: 0;
+    padding-top: 2%;
+  }
+
+  .textField3 {
+    margin: 0;
+    width: 50%;
+    line-height: 40px;
+    font-size: 1.1em;
+    font-family: "Crimson Text", Serif;
+    padding-left: 5px;
+    border: 1px solid #000000;
+  }
+
+  .formItem4 {
+    margin: 0;
+    padding-top: 2%;
+  }
+
+  .textField4 {
+    width: 50%;
+    height: 200px;
+    font-size: 1.1em;
+    font-family: "Crimson Text", Serif;
+    padding: 0;
+    padding-left: 5px;
+    border: 1px solid #000000;
+  }
+
+  .formItem5 {
+    margin: 0;
+    padding-top: 4%;
+  }
+
+  .button {
+    width: 200px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: "Crimson Text", Serif;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
   }
 }

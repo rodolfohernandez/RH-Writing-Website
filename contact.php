@@ -70,9 +70,9 @@
         <!-- uses Hamburgler code, match '#' too code above -->
       <div class="hamburgler-menu">
         <ul class="hamburgler-menu-list">
-          <li><a class="navigationitem" href="about.html">About</a></li>
-          <li><a class="navigationitem" href="poems.html">Poems</a></li>
-          <li><a class="navigationitem" href="contact.php">Contact</a></li>
+          <li><a class="navigationItem" href="about">About</a></li>
+          <li><a class="navigationItem" href="poems">Poems</a></li>
+          <li><a class="navigationItem" href="contact">Contact</a></li>
         </ul>
       </div>
 
@@ -106,28 +106,29 @@
     </div>
 
     <div class="innerColumn">
-      <h1 class="contactTitle">Contact</h1>
+      <h1 class="pageTitle">Contact</h1>
         <!-- Replace '#' with PHP script or website to handle form -->
       <form action="https://formspree.io/hernandez.e.rodolfo@gmail.com" method="POST">
         <ul>
-          <li class="formitem"><input class="textfield" type="text" name="textfield" placeholder="First Name"></li>
-          <li class="formitem"><input class="textfield" type="text" name="userlastname" placeholder="Last Name"></li>
-          <li class="formitem"><input class="textfield" type="email" name="useremail" placeholder="Email"></li>
-          <textarea class="textfield" name="usermessage" placeholder="Type your message here"></textarea>
-          <li class="formitem"><input class="button" type="submit" value="Send"></li>
+          <li class="formItem1"><input class="textField1" type="text" name="textfield" maxlength="100" placeholder="First Name"></li>
+          <li class="formItem2"><input class="textField2" type="text" name="userlastname" maxlength="100" placeholder="Last Name"></li>
+          <li class="formItem3"><input class="textField3" type="email" name="useremail" maxlength="100" placeholder="Email"></li>
+          <li class="formItem4"><textarea class="textField4" name="usermessage" maxlength="2000" placeholder="Type your message here"></textarea></li>
+          <li class="formItem5"><input class="button" type="submit" value="Send"></li>
         </ul>
       </form>
     </div>
-    <!-- Footer starts here, includes social media links -->
-    <div class="socialmediaicons">
-      <div class="vscocontainer">
-        <div class="vscoicon">
-          <a style="display: inline-block; border: 0; text-decoration: none;" href="http://vsco.co/rodolfohernandez"><img class="iconimages" src="http://assets.vsco.co/assets/images/assets/Logo_black_16.png" alt="VSCO Logo" /></a>
+    <div class="iconAboutContainer">
+      <div class="iconAboutSubContainer">
+        <div class="vscoAboutContainer">
+          <div class="vscoicon">
+            <a style="display: inline-block; border: 0; text-decoration: none;" href="http://vsco.co/rodolfohernandez"><img class="iconAboutImages" src="http://assets.vsco.co/assets/images/assets/Logo_black_16.png" alt="VSCO Logo" /></a>
+          </div>
         </div>
-      </div>
-      <div class="igcontainer">
-        <div class="instagramicon">
-            <a style="display: inline-block; border: 0; text-decoration: none;" href="https://www.instagram.com/rodolfo.eduardo/?ref=badge"><img class= "iconimages" src="Images/instagramlogo.png" alt="Instagram" /></a>
+        <div class="igAboutContainer">
+          <div class="instagramicon">
+            <a style="display: inline-block; border: 0; text-decoration: none;" href="https://www.instagram.com/rodolfo.eduardo/?ref=badge"><img class= "iconAboutImages" src="Images/instagramlogo.png" alt="Instagram" /></a>
+          </div>
         </div>
       </div>
     </div>
