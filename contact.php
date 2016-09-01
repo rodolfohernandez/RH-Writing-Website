@@ -108,15 +108,16 @@
     <div class="innerColumn">
       <h1 class="pageTitle">Contact</h1>
         <!-- Replace '#' with PHP script or website to handle form -->
-      <form action="https://formspree.io/hernandez.e.rodolfo@gmail.com" method="POST">
-        <ul>
-          <li class="formItem1"><input class="textField1" type="text" name="textfield" maxlength="100" placeholder="First Name"></li>
-          <li class="formItem2"><input class="textField2" type="text" name="userlastname" maxlength="100" placeholder="Last Name"></li>
-          <li class="formItem3"><input class="textField3" type="email" name="useremail" maxlength="100" placeholder="Email"></li>
-          <li class="formItem4"><textarea class="textField4" name="usermessage" maxlength="2000" placeholder="Type your message here"></textarea></li>
-          <li class="formItem5"><input class="button" type="submit" value="Send"></li>
-        </ul>
-      </form>
+      <div class="contactContainer">
+        <form action="https://formspree.io/hernandez.e.rodolfo@gmail.com" method="POST">
+          <ul>
+            <li class="formItem1"><input class="textField1" type="text" name="textfield" maxlength="100" placeholder="Name"></li>
+            <li class="formItem3"><input class="textField3" type="email" name="useremail" maxlength="100" placeholder="Email"></li>
+            <li class="formItem4"><textarea class="textField4" name="usermessage" maxlength="2000" placeholder="Type your message here"></textarea></li>
+            <li class="formItem5"><input class="button" type="submit" value="Send"></li>
+          </ul>
+        </form>
+      </div>
     </div>
     <div class="iconAboutContainer">
       <div class="iconAboutSubContainer">

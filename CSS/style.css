@@ -124,6 +124,9 @@ button {
 input, textarea {
   -webkit-border-radius: 0;
   border-radius: 0;
+  width:100%;
+  padding:0;
+  border-width:0
 }
 
 img {
@@ -388,17 +391,19 @@ li {
   padding-right: 10%;
 }
 
-.formItem1 {
-  display: inline-block;
-  margin: 0;
-  padding-top: 5%;
+.contactContainer {
+  margin-left: 33%;
+  margin-right: 33%;
 }
 
-.formItem2 {
-  display: inline-block;
+form {
+  width: 100%;
+}
+
+.formItem1 {
+  display: block;
   margin: 0;
   padding-top: 5%;
-  padding-left: 1%;
 }
 
 .textField1 {
@@ -406,47 +411,42 @@ li {
   line-height: 40px;
   font-size: 1.1em;
   font-family: "Crimson Text", Serif;
+  width: 100%;
   padding-left: 5px;
-  width: 295px
-}
-
-.textField2 {
-  border: 1px solid #000000;
-  line-height: 40px;
-  font-size: 1.1em;
-  font-family: "Crimson Text", Serif;
-  padding-left: 5px;
-  width: 295px
 }
 
 .formItem3 {
+  display: block;
   margin: 0;
   padding-top: 2%;
 }
 
 .textField3 {
   margin: 0;
-  width: 613px;
+  width: 100%;
   line-height: 40px;
   font-size: 1.1em;
   font-family: "Crimson Text", Serif;
-  padding-left: 5px;
   border: 1px solid #000000;
+  padding-left: 5px;
 }
 
 .formItem4 {
+  display: block;
   margin: 0;
   padding-top: 2%;
+  padding-left: 0;
 }
 
 .textField4 {
-  width: 613px;
+  margin: 0;
+  width: 100%;
   height: 300px;
   font-size: 1.1em;
   font-family: "Crimson Text", Serif;
+  border: 1px solid #000000;
   padding: 0;
   padding-left: 5px;
-  border: 1px solid #000000;
 }
 
 .formItem5 {
@@ -609,33 +609,18 @@ and (orientation: portrait) {
 
   /* Contact */
 
-  .formItem1 {
-    display: block;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-top: 5%;
-    padding-left: 0;
+  .contactContainer {
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
-  .formItem2 {
+  .formItem1 {
     display: block;
     margin: 0;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-top: 3%;
-    padding-left: 0;
+    padding-top: 5%;
   }
 
   .textField1 {
-    border: 1px solid #000000;
-    line-height: 40px;
-    font-size: 1.1em;
-    font-family: "Crimson Text", Serif;
-    padding-left: 5px;
-    width: 100%;
-  }
-
-  .textField2 {
     border: 1px solid #000000;
     line-height: 40px;
     font-size: 1.1em;
@@ -648,9 +633,6 @@ and (orientation: portrait) {
     display: block;
     margin: 0;
     padding-top: 3%;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-left: 0;
   }
 
   .textField3 {
@@ -667,9 +649,6 @@ and (orientation: portrait) {
     display: block;
     margin: 0;
     padding-top: 3%;
-    margin-left:20%;
-    margin-right: 20%;
-    padding-left: 0;
   }
 
   .textField4 {
@@ -688,8 +667,8 @@ and (orientation: portrait) {
   }
 
   .button {
-    width: 200px;
-    height: 40px;
+    width: 130px;
+    height: 30px;
     font-size: 1em;
     font-weight: normal;
     font-family: "Crimson Text", Serif;
@@ -769,7 +748,7 @@ and (orientation: portrait){
   /* About Page */
 
   .pageTitle {
-    padding-top: 20%;
+    padding-top: 25%;
     font-size: 2em;
   }
 
@@ -793,8 +772,13 @@ and (orientation: portrait){
   }
 
   .mainLogoContainer {
+    position: absolute;
+    top: 7%;
+    left: 8%;
+    margin: 0px;
     width: 45px;
     height: 45px;
+    cursor: pointer;
   }
 
   /* Social Media Icons */
@@ -841,84 +825,76 @@ and (orientation: portrait){
   }
 
 
-    /* Contact */
+  /* Contact */
 
-    .formItem1 {
-      display: block;
-      margin: 0;
-      padding-top: 5%;
-    }
+  .contactContainer {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 
-    .formItem2 {
-      display: block;
-      margin: 0;
-      padding-top: 2%;
-      padding-left: 0;
-    }
+  .formItem1 {
+    display: block;
+    margin: 0;
+    padding-top: 5%;
+  }
 
-    .textField1 {
-      border: 1px solid #000000;
-      line-height: 30px;
-      font-size: 1em;
-      font-family: "Crimson Text", Serif;
-      padding-left: 5px;
-      width: 50%;
-    }
+  .textField1 {
+    border: 1px solid #000000;
+    line-height: 30px;
+    font-size: 0.9em;
+    font-family: "Crimson Text", Serif;
+    padding-left: 5px;
+    width: 100%;
+  }
 
-    .textField2 {
-      border: 1px solid #000000;
-      line-height: 30px;
-      font-size: 1em;
-      font-family: "Crimson Text", Serif;
-      padding-left: 5px;
-      width: 50%;
-    }
+  .formItem3 {
+    display: block;
+    margin: 0;
+    padding-top: 3%;
+  }
 
-    .formItem3 {
-      margin: 0;
-      padding-top: 2%;
-    }
+  .textField3 {
+    margin: 0;
+    width: 100%;
+    line-height: 30px;
+    font-size: 0.9em;
+    font-family: "Crimson Text", Serif;
+    padding-left: 5px;
+    border: 1px solid #000000;
+  }
 
-    .textField3 {
-      margin: 0;
-      width: 50%;
-      line-height: 30px;
-      font-size: 1em;
-      font-family: "Crimson Text", Serif;
-      padding-left: 5px;
-      border: 1px solid #000000;
-    }
+  .formItem4 {
+    display: block;
+    margin: 0;
+    padding-top: 3%;
+  }
 
-    .formItem4 {
-      margin: 0;
-      padding-top: 2%;
-    }
+  .textField4 {
+    width: 100%;
+    height: 200px;
+    font-size: 0.9em;
+    font-family: "Crimson Text", Serif;
+    padding: 0;
+    padding-left: 5px;
+    border: 1px solid #000000;
+  }
 
-    .textField4 {
-      width: 50%;
-      height: 200px;
-      font-size: 1em;
-      font-family: "Crimson Text", Serif;
-      padding: 0;
-      padding-left: 5px;
-      border: 1px solid #000000;
-    }
+  .formItem5 {
+    display: block;
+    margin: 0;
+    padding-top: 4%;
+  }
 
-    .formItem5 {
-      margin: 0;
-      padding-top: 4%;
-    }
-
-    .button {
-      width: 100px;
-      height: 30px;
-      font-size: 1em;
-      font-weight: normal;
-      font-family: "Crimson Text", Serif;
-      background-color: #000000;
-      color: #ffffff;
-      border: 1px solid #000000;
-    }
+  .button {
+    width: 100px;
+    height: 30px;
+    font-size: 0.9em;
+    font-weight: normal;
+    font-family: "Crimson Text", Serif;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+  }
 
 }
 
@@ -1054,6 +1030,70 @@ and (orientation: landscape) {
     padding-left: 5%;
     padding-right: 5%;
   }
+
+  /* Contact */
+  .contactContainer {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .textField1 {
+    border: 1px solid #000000;
+    line-height: 40px;
+    font-size: 1.1em;
+    font-family: "Crimson Text", Serif;
+    padding-left: 5px;
+    width: 100%;
+  }
+
+  .formItem3 {
+    display: block;
+    margin: 0;
+    padding-top: 3%;
+  }
+
+  .textField3 {
+    margin: 0;
+    border: 1px solid #000000;
+    width: 100%;
+    line-height: 40px;
+    font-size: 1.1em;
+    font-family: "Crimson Text", Serif;
+    padding-left: 5px;
+  }
+
+  .formItem4 {
+    display: block;
+    margin: 0;
+    padding-top: 3%;
+  }
+
+  .textField4 {
+    margin: 0;
+    width: 100%;
+    height: 300px;
+    font-size: 1.1em;
+    font-family: "Crimson Text", Serif;
+    padding-left: 5px;
+    border: 1px solid #000000;
+  }
+
+  .formItem5 {
+    margin: 0;
+    padding-top: 4%;
+  }
+
+  .button {
+    width: 130px;
+    height: 30px;
+    font-size: 1em;
+    font-weight: normal;
+    font-family: "Crimson Text", Serif;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+  }
+
 }
 
 @media (min-width: 320px)
@@ -1189,6 +1229,10 @@ and (orientation: landscape) {
   }
 
   /* Contact */
+  .contactContainer {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
 
   .formItem1 {
     display: block;
@@ -1196,23 +1240,7 @@ and (orientation: landscape) {
     padding-top: 5%;
   }
 
-  .formItem2 {
-    display: block;
-    margin: 0;
-    padding-top: 2%;
-    padding-left: 0;
-  }
-
   .textField1 {
-    border: 1px solid #000000;
-    line-height: 40px;
-    font-size: 1.1em;
-    font-family: "Crimson Text", Serif;
-    padding-left: 5px;
-    width: 50%;
-  }
-
-  .textField2 {
     border: 1px solid #000000;
     line-height: 40px;
     font-size: 1.1em;
