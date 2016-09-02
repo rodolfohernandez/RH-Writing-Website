@@ -193,6 +193,9 @@ img {
 }
 
 .navigationItem {
+  display: block;
+  padding-top: 20%;
+  padding-bottom: 20%;
   font-size: 2em;
 }
 
@@ -268,6 +271,7 @@ li {
   margin-right: 25.5%;
   font-size: 2em;
   line-height: 1.25;
+  text-align: justify;
 }
 
 
@@ -507,6 +511,7 @@ and (orientation: portrait) {
     margin-right: 20%;
     font-size: 1.25em;
     line-height: 1.25;
+    text-align: justify;
   }
 
   /* Home Navigation */
@@ -529,6 +534,9 @@ and (orientation: portrait) {
   }
 
   .navigationItem {
+    display: block;
+    padding-top: 25%;
+    padding-bottom: 25%;
     font-size: 1.5em;
   }
 
@@ -726,6 +734,9 @@ and (orientation: portrait){
   }
 
   .navigationItem {
+    display: block;
+    padding-top: 20%;
+    padding-bottom: 20%;
     font-size: 1em;
   }
 
@@ -764,6 +775,7 @@ and (orientation: portrait){
     margin-right: 15%;
     font-size: 1em;
     line-height: 1.25;
+    text-align: justify;
   }
 
   /* Logo */
@@ -829,14 +841,14 @@ and (orientation: portrait){
   /* Contact */
 
   .contactContainer {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   .formItem1 {
     display: block;
     margin: 0;
-    padding-top: 5%;
+    padding-top: 10%;
   }
 
   .textField1 {
@@ -941,6 +953,7 @@ and (orientation: landscape) {
     margin-right: 15%;
     font-size: 1.75em;
     line-height: 1.25;
+    text-align: justify;
   }
 
   /* Home Navigation */
@@ -964,6 +977,9 @@ and (orientation: landscape) {
   }
 
   .navigationItem {
+    display: block;
+    padding-top: 25%;
+    padding-bottom: 25%;
     font-size: 1.5em;
   }
 
@@ -991,8 +1007,13 @@ and (orientation: landscape) {
   }
 
   .mainLogoContainer {
+    position: absolute;
+    top: 6%;
+    left: 8%;
+    margin: 0px;
     width: 50px;
     height: 50px;
+    cursor: pointer;
   }
 
   /* Social Media Icons */
@@ -1123,7 +1144,7 @@ and (orientation: landscape) {
 
   .pageTitle {
     padding-top: 15%;
-    font-size: 3.5em;
+    font-size: 3em;
   }
 
   .portrait {
@@ -1139,6 +1160,7 @@ and (orientation: landscape) {
     margin-right: 15%;
     font-size: 1.5em;
     line-height: 1.25;
+    text-align: justify;
   }
 
   /* Home Navigation */
@@ -1162,8 +1184,12 @@ and (orientation: landscape) {
   }
 
   .navigationItem {
-    font-size: 1em;
+    display: block;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    font-size: 1.5em;
   }
+
 
   .hamburgler-icon-wrapper {
     position: absolute;
@@ -1189,9 +1215,15 @@ and (orientation: landscape) {
   }
 
   .mainLogoContainer {
+    position: absolute;
+    top: 6%;
+    left: 8%;
+    margin: 0px;
     width: 45px;
     height: 45px;
+    cursor: pointer;
   }
+
   /* Social Media Icons */
   .iconimages {
     width: 0.65em;
