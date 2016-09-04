@@ -263,7 +263,7 @@ li {
 .portrait {
   display: block;
   margin: auto;
-  padding: 10%;
+  padding: 5%;
 }
 
 .aboutCopy {
@@ -370,7 +370,7 @@ li {
 .igRow1 {
   height: 33%;
   text-align: center;
-  padding-top: 10%;
+  padding-top: 5%;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -399,6 +399,7 @@ li {
 .contactContainer {
   margin-left: 33%;
   margin-right: 33%;
+  padding-top: 5%
 }
 
 form {
@@ -408,12 +409,11 @@ form {
 .formItem1 {
   display: block;
   margin: 0;
-  padding-top: 15%;
 }
 
 .textField1 {
   border: 1px solid #000000;
-  line-height: 40px;
+  height: 40px;
   font-size: 1.1em;
   font-family: "Crimson Text", Serif;
   width: 100%;
@@ -429,7 +429,7 @@ form {
 .textField3 {
   margin: 0;
   width: 100%;
-  line-height: 40px;
+  height: 40px;
   font-size: 1.1em;
   font-family: "Crimson Text", Serif;
   border: 1px solid #000000;
@@ -456,7 +456,7 @@ form {
 
 .formItem5 {
   margin: 0;
-  padding-top: 4%;
+  padding-top: 8%;
 }
 
 .button {
@@ -631,7 +631,7 @@ and (orientation: portrait) {
 
   .textField1 {
     border: 1px solid #000000;
-    line-height: 40px;
+    height: 40px;
     font-size: 1.1em;
     font-family: "Crimson Text", Serif;
     padding-left: 5px;
@@ -648,7 +648,7 @@ and (orientation: portrait) {
     margin: 0;
     border: 1px solid #000000;
     width: 100%;
-    line-height: 40px;
+    height: 40px;
     font-size: 1.1em;
     font-family: "Crimson Text", Serif;
     padding-left: 5px;
@@ -853,7 +853,7 @@ and (orientation: portrait){
 
   .textField1 {
     border: 1px solid #000000;
-    line-height: 30px;
+    height: 30px;
     font-size: 0.9em;
     font-family: "Crimson Text", Serif;
     padding-left: 5px;
@@ -869,7 +869,7 @@ and (orientation: portrait){
   .textField3 {
     margin: 0;
     width: 100%;
-    line-height: 30px;
+    height: 30px;
     font-size: 0.9em;
     font-family: "Crimson Text", Serif;
     padding-left: 5px;
@@ -1018,11 +1018,16 @@ and (orientation: landscape) {
 
   /* Social Media Icons */
   .iconimages {
-    width: 0.65em;
-    height: 0.65em;
+    width: 0.75em;
+    height: 0.75em;
     margin: 0px;
   }
 
+  .iconAboutImages {
+    width: 1em;
+    height: 1em;
+    margin: 0px;
+  }
   /* Poems */
   .igRow1 {
     height: 33%;
@@ -1061,7 +1066,7 @@ and (orientation: landscape) {
 
   .textField1 {
     border: 1px solid #000000;
-    line-height: 40px;
+    height: 40px;
     font-size: 1.1em;
     font-family: "Crimson Text", Serif;
     padding-left: 5px;
@@ -1078,7 +1083,7 @@ and (orientation: landscape) {
     margin: 0;
     border: 1px solid #000000;
     width: 100%;
-    line-height: 40px;
+    height: 40px;
     font-size: 1.1em;
     font-family: "Crimson Text", Serif;
     padding-left: 5px;
@@ -1144,7 +1149,7 @@ and (orientation: landscape) {
 
   .pageTitle {
     padding-top: 15%;
-    font-size: 3em;
+    font-size: 2.8em;
   }
 
   .portrait {
@@ -1226,8 +1231,14 @@ and (orientation: landscape) {
 
   /* Social Media Icons */
   .iconimages {
-    width: 0.65em;
-    height: 0.65em;
+    width: 0.75em;
+    height: 0.75em;
+    margin: 0px;
+  }
+
+  .iconAboutImages {
+    width: 1em;
+    height: 1em;
     margin: 0px;
   }
 
@@ -1263,8 +1274,8 @@ and (orientation: landscape) {
 
   /* Contact */
   .contactContainer {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   .formItem1 {
@@ -1275,11 +1286,11 @@ and (orientation: landscape) {
 
   .textField1 {
     border: 1px solid #000000;
-    line-height: 40px;
+    height: 40px;
     font-size: 1.1em;
     font-family: "Crimson Text", Serif;
     padding-left: 5px;
-    width: 50%;
+    width: 100%;
   }
 
   .formItem3 {
@@ -1289,8 +1300,8 @@ and (orientation: landscape) {
 
   .textField3 {
     margin: 0;
-    width: 50%;
-    line-height: 40px;
+    width: 100%;
+    height: 40px;
     font-size: 1.1em;
     font-family: "Crimson Text", Serif;
     padding-left: 5px;
@@ -1303,7 +1314,7 @@ and (orientation: landscape) {
   }
 
   .textField4 {
-    width: 50%;
+    width: 100%;
     height: 200px;
     font-size: 1.1em;
     font-family: "Crimson Text", Serif;
@@ -1318,7 +1329,7 @@ and (orientation: landscape) {
   }
 
   .button {
-    width: 200px;
+    width: 175px;
     height: 40px;
     font-size: 1em;
     font-weight: normal;
