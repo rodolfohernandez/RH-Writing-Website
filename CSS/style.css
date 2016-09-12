@@ -1,3 +1,45 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/Droid-Sans-regular/Droid-Sans-regular.eot');
+  src: url('/fonts/Droid-Sans-regular/Droid-Sans-regular.eot?#iefix') format('embedded-opentype'),
+       local('Droid Sans'),
+       local('Droid-Sans-regular'),
+       url('/fonts/Droid-Sans-regular/Droid-Sans-regular.woff2') format('woff2'),
+       url('/fonts/Droid-Sans-regular/Droid-Sans-regular.woff') format('woff'),
+       url('/fonts/Droid-Sans-regular/Droid-Sans-regular.ttf') format('truetype'),
+       url('/fonts/Droid-Sans-regular/Droid-Sans-regular.svg#DroidSans') format('svg');
+}
+
+@font-face {
+  font-family: 'Crimson Text';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/Crimson-Text-regular/Crimson-Text-regular.eot');
+  src: url('/fonts/Crimson-Text-regular/Crimson-Text-regular.eot?#iefix') format('embedded-opentype'),
+       local('Crimson Text'),
+       local('Crimson-Text-regular'),
+       url('/fonts/Crimson-Text-regular/Crimson-Text-regular.woff2') format('woff2'),
+       url('/fonts/Crimson-Text-regular/Crimson-Text-regular.woff') format('woff'),
+       url('/fonts/Crimson-Text-regular/Crimson-Text-regular.ttf') format('truetype'),
+       url('/fonts/Crimson-Text-regular/Crimson-Text-regular.svg#CrimsonText') format('svg');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-style: normal;
+  src: url('/fonts/Playfair-Display-regular/Playfair-Display-regular.eot');
+  src: url('/fonts/Playfair-Display-regular/Playfair-Display-regular.eot?#iefix') format('embedded-opentype'),
+       local('Playfair Display'),
+       local('Playfair-Display-regular'),
+       url('/fonts/Playfair-Display-regular/Playfair-Display-regular.woff2') format('woff2'),
+       url('/fonts/Playfair-Display-regular/Playfair-Display-regular.woff') format('woff'),
+       url('/fonts/Playfair-Display-regular/Playfair-Display-regular.ttf') format('truetype'),
+       url('/fonts/Playfair-Display-regular/Playfair-Display-regular.svg#PlayfairDisplay') format('svg');
+}
+
 .hamburgler-icon-wrapper {
   position: absolute;
   top: 9.5%;
@@ -135,6 +177,8 @@ img {
   height: auto;
   border: 0;
 }
+
+
 /* End Foundation code*/
 
 /* Main code starts here */
@@ -217,7 +261,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Crimson Text", Serif;
+  font-family: 'Crimson Text', Serif;
   font-size: 17px;
   text-align: center;
   font-weight: normal;
@@ -236,7 +280,7 @@ h2 {
 
 /* Home Navigation */
 p {
-  font-family: "Crimson Text", Sans-Serif;
+  font-family: 'Crimson Text', Sans-Serif;
   padding-left: 25px;
   padding-right: 25px;
 }
