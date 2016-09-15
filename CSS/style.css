@@ -236,11 +236,15 @@ img {
   margin: auto;
 }
 
+.homeNavItem {
+  font-size: 1.35em;
+}
+
 .navigationItem {
   display: block;
   padding-top: 20%;
   padding-bottom: 20%;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 /* Titles */
@@ -251,24 +255,24 @@ img {
 
 h1 {
   font-family: "Playfair Display", Serif;
-  font-size: 25px;
   text-align: center;
   font-weight: 400;
 }
 
 .homePageTitle {
   padding-top: 5%;
+  font-size: 2em;
 }
 
 h2 {
   font-family: 'Crimson Text', Serif;
-  font-size: 17px;
   text-align: center;
   font-weight: normal;
 }
 
 .homeSubHeading {
   padding-top: 2%;
+  font-size: 1.25em;
 }
 
 .divider {
