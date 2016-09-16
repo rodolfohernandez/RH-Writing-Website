@@ -42,7 +42,7 @@
 
 .hamburgler-icon-wrapper {
   position: absolute;
-  top: 9.5%;
+  top: 8%;
   right: 4%;
   height: 26px;
   width: 26px;
@@ -217,8 +217,8 @@ img {
   top: 6%;
   left: 4%;
   margin: 0px;
-  width: 65px;
-  height: 65px;
+  width: 50px;
+  height: 50px;
   cursor: pointer;
 }
 
@@ -237,14 +237,14 @@ img {
 }
 
 .homeNavItem {
-  font-size: 1.35em;
+  font-size: 1.2em;
 }
 
 .navigationItem {
   display: block;
   padding-top: 20%;
   padding-bottom: 20%;
-  font-size: 3em;
+  font-size: 2.2em;
 }
 
 /* Titles */
@@ -261,7 +261,7 @@ h1 {
 
 .homePageTitle {
   padding-top: 5%;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h2 {
@@ -272,7 +272,7 @@ h2 {
 
 .homeSubHeading {
   padding-top: 2%;
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 .divider {
@@ -390,8 +390,8 @@ li {
 }
 
 .iconAboutImages {
-	width: 1.75em;
-	height: 1.75em;
+	width: 1.35em;
+	height: 1.35em;
 	margin: 0px;
 }
 
@@ -510,7 +510,7 @@ form {
 .button {
   width: 250px;
   height: 50px;
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-weight: normal;
   font-family: "Crimson Text", Serif;
   background-color: #000000;
@@ -520,6 +520,11 @@ form {
 
 
 /* Media Queries */
+@media (min-width: 801px)
+and (max-width: 1199px)
+and (orientation: portrait) {
+
+}
 
 @media (min-width: 551px)
 and (max-width: 800px)
