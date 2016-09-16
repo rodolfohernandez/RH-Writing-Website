@@ -305,7 +305,7 @@ li {
 
 .pageTitle {
   padding-top: 10%;
-  font-size: 5em;
+  font-size: 4em;
 }
 
 .portrait {
@@ -508,9 +508,9 @@ form {
 }
 
 .button {
-  width: 250px;
-  height: 50px;
-  font-size: 1.3em;
+  width: 205px;
+  height: 45px;
+  font-size: 1.1em;
   font-weight: normal;
   font-family: "Crimson Text", Serif;
   background-color: #000000;
