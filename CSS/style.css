@@ -741,8 +741,7 @@ and (orientation: portrait) {
 
 }
 
-@media (min-width: 320px)
-and (max-width: 550px)
+@media (max-width: 550px)
 and (orientation: portrait){
 
   .col1, .col2 {
