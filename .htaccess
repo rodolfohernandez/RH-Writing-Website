@@ -3,12 +3,15 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
 
+<<<<<<< HEAD
 <IfModule mod_headers.c>
   <FilesMatch "\.(js|css|xml|gz)$">
     Header append Vary: Accept-Encoding
   </FilesMatch>
 </IfModule>
 
+=======
+>>>>>>> 27f9492c9e2029634b13d712f2c9d59a455b0108
 ## EXPIRES CACHING ##
 <IfModule mod_expires.c>
 ExpiresActive On
