@@ -3,31 +3,11 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html
 
-<<<<<<< HEAD
 <IfModule mod_headers.c>
   <FilesMatch "\.(js|css|xml|gz)$">
     Header append Vary: Accept-Encoding
   </FilesMatch>
 </IfModule>
-
-=======
->>>>>>> 27f9492c9e2029634b13d712f2c9d59a455b0108
-## EXPIRES CACHING ##
-<IfModule mod_expires.c>
-ExpiresActive On
-ExpiresByType image/jpg "access 1 year"
-ExpiresByType image/jpeg "access 1 year"
-ExpiresByType image/gif "access 1 year"
-ExpiresByType image/png "access 1 year"
-ExpiresByType text/css "access 1 month"
-ExpiresByType text/html "access 1 month"
-ExpiresByType application/pdf "access 1 month"
-ExpiresByType text/x-javascript "access 1 month"
-ExpiresByType application/x-shockwave-flash "access 1 month"
-ExpiresByType image/x-icon "access 1 year"
-ExpiresDefault "access 1 month"
-</IfModule>
-## EXPIRES CACHING ##
 
 <IfModule mod_deflate.c>
 
@@ -62,4 +42,21 @@ ExpiresDefault "access 1 month"
                                   text/xml
   </IfModule>
 
+</IfModule>
+
+
+
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType application/javascript "access 1 month"
+ExpiresByType application/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 2 days"
 </IfModule>
