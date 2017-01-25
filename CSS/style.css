@@ -322,6 +322,84 @@ li {
   text-align: justify;
 }
 
+.blogCopy {
+  margin-left: 25.5%;
+  margin-right: 25.5%;
+  padding-left: 0px;
+  padding-right: 0px;
+  font-size: 2em;
+  line-height: 1.25;
+  text-align: justify;
+}
+
+.blogTopDivider {
+  margin: auto;
+  padding-top: 2.5%;
+  margin-left: 25.5%;
+  margin-right: 25.5%;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.blogBottomDivider {
+  margin: auto;
+  margin-left: 25.5%;
+  margin-right: 25.5%;
+  border-bottom: 1px solid #d3d3d3;
+  padding-top: 1%;
+}
+
+.blogSubHeading {
+  font-family: 'Crimson Text', Sans-Serif;
+  font-size: 1.5em;
+  margin-left: 25.5%;
+  margin-right: 25.5%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 1%;
+}
+
+header {
+  font-family: 'Droid Sans', Sans-Serif;
+  font-size: 1.75em;
+  font-weight: normal;
+  margin-left: 25.5%;
+  margin-right: 25.5%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.blogContainer {
+  position: relative;
+  padding-top: 1%;
+  overflow: hidden;
+}
+
+.previousContainer {
+	float: left;
+	margin: 0px;
+	width: 48%;
+}
+
+.nextContainer {
+	float: right;
+	margin: 0px;
+	width: 48%;
+}
+
+.previousLink {
+  text-align: right;
+}
+
+.nextLink {
+  text-align: left;
+}
+
+.blogLinks {
+  margin: 0px;
+  font-size: 1.75em;
+}
 
 /* Social Media Icons */
 
@@ -518,7 +596,6 @@ form {
   border: 1px solid #000000;
 }
 
-
 /* Media Queries */
 @media (min-width: 801px)
 and (max-width: 1199px)
@@ -567,6 +644,59 @@ and (orientation: portrait) {
     text-align: justify;
   }
 
+  .blogCopy {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 1.25em;
+    line-height: 1.25;
+    text-align: justify;
+  }
+
+
+  .blogTopDivider {
+    margin: auto;
+    padding-top: 2.5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+  .blogBottomDivider {
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: 1px solid #d3d3d3;
+    padding-top: 1%;
+  }
+
+  .blogSubHeading {
+    font-size: 0.75em;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1%;
+  }
+
+  header {
+    font-family: 'Droid Sans', Sans-Serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+
+  .blogLinks {
+    font-size: 1em;
+    margin: 0px;
+  }
+
   /* Home Navigation */
   p {
     font-family: "Crimson Text", Sans-Serif;
@@ -583,7 +713,11 @@ and (orientation: portrait) {
   }
 
   li {
-    margin: 4%;
+    margin: 2.5%;
+  }
+
+  .divider {
+    padding-top: 3.5%;
   }
 
   .navigationItem {
@@ -782,13 +916,17 @@ and (orientation: portrait){
   }
 
   li {
-    margin: 4%;
+    margin: 3%;
   }
 
   .navigationItem {
     display: block;
     padding-top: 20%;
     padding-bottom: 20%;
+    font-size: 1em;
+  }
+
+  .homeNavItem {
     font-size: 1em;
   }
 
@@ -828,6 +966,58 @@ and (orientation: portrait){
     font-size: 1em;
     line-height: 1.25;
     text-align: justify;
+  }
+
+  .blogCopy {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 1em;
+    line-height: 1.25;
+    text-align: justify;
+  }
+
+  .blogTopDivider {
+    margin: auto;
+    padding-top: 2.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+  .blogBottomDivider {
+    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 1px solid #d3d3d3;
+    padding-top: 1%;
+  }
+
+  .blogSubHeading {
+    font-size: 0.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1%;
+  }
+
+  header {
+    font-family: 'Droid Sans', Sans-Serif;
+    font-size: 0.75em;
+    font-weight: normal;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+
+  .blogLinks {
+    font-size: 0.75em;
+    margin: 0px;
   }
 
   /* Logo */
@@ -1006,6 +1196,58 @@ and (orientation: landscape) {
     font-size: 1.75em;
     line-height: 1.25;
     text-align: justify;
+  }
+
+  .blogCopy {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 1.75em;
+    line-height: 1.25;
+    text-align: justify;
+  }
+
+  .blogTopDivider {
+    margin: auto;
+    padding-top: 2.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+  .blogBottomDivider {
+    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 1px solid #d3d3d3;
+    padding-top: 1%;
+  }
+
+  .blogSubHeading {
+    font-size: 1.25em;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1%;
+  }
+
+  header {
+    font-family: 'Droid Sans', Sans-Serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+
+  .blogLinks {
+    font-size: 1.5em;
+    margin: 0px;
   }
 
   /* Home Navigation */
@@ -1218,6 +1460,59 @@ and (orientation: landscape) {
     font-size: 1.5em;
     line-height: 1.25;
     text-align: justify;
+  }
+
+  .blogCopy {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 1.5em;
+    line-height: 1.25;
+    text-align: justify;
+  }
+
+
+  .blogTopDivider {
+    margin: auto;
+    padding-top: 2.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+  .blogBottomDivider {
+    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom: 1px solid #d3d3d3;
+    padding-top: 1%;
+  }
+
+  .blogSubHeading {
+    font-size: 1em;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 1%;
+  }
+
+  header {
+    font-family: 'Droid Sans', Sans-Serif;
+    font-size: 1.25em;
+    font-weight: normal;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 3%;
+    padding-bottom: 2%;
+  }
+
+  .blogLinks {
+    margin: 0px;
+    font-size: 1.25em;
   }
 
   /* Home Navigation */
