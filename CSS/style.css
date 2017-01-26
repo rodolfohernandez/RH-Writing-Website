@@ -327,7 +327,7 @@ li {
   margin-right: 25.5%;
   padding-left: 0px;
   padding-right: 0px;
-  font-size: 2em;
+  font-size: 1.75em;
   line-height: 1.25;
   text-align: justify;
 }
@@ -360,7 +360,7 @@ li {
 
 header {
   font-family: 'Droid Sans', Sans-Serif;
-  font-size: 1.75em;
+  font-size: 2em;
   font-weight: normal;
   margin-left: 25.5%;
   margin-right: 25.5%;
@@ -398,7 +398,23 @@ header {
 
 .blogLinks {
   margin: 0px;
-  font-size: 1.75em;
+  font-size: 1.5em;
+  font-family: "Crimson Text", Serif;
+}
+
+/* Archive */
+
+.archiveList {
+  font-size: 1.50em; /* or smaller in main desktop view */
+  margin: 0px;
+  padding-top: 1%;
+  display: list-item;
+  list-style-type: square;
+}
+
+ol {
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 /* Social Media Icons */
@@ -649,7 +665,7 @@ and (orientation: portrait) {
     margin-right: 20%;
     padding-left: 0px;
     padding-right: 0px;
-    font-size: 1.25em;
+    font-size: 1em;
     line-height: 1.25;
     text-align: justify;
   }
@@ -682,7 +698,7 @@ and (orientation: portrait) {
 
   header {
     font-family: 'Droid Sans', Sans-Serif;
-    font-size: 1em;
+    font-size: 1.25em;
     font-weight: normal;
     margin-left: 20%;
     margin-right: 20%;
@@ -973,7 +989,7 @@ and (orientation: portrait){
     margin-right: 15%;
     padding-left: 0px;
     padding-right: 0px;
-    font-size: 1em;
+    font-size: 0.75em;
     line-height: 1.25;
     text-align: justify;
   }
@@ -995,7 +1011,7 @@ and (orientation: portrait){
   }
 
   .blogSubHeading {
-    font-size: 0.5em;
+    font-size: 0.65em;
     margin-left: 15%;
     margin-right: 15%;
     padding-left: 0px;
@@ -1005,7 +1021,7 @@ and (orientation: portrait){
 
   header {
     font-family: 'Droid Sans', Sans-Serif;
-    font-size: 0.75em;
+    font-size: 0.9em;
     font-weight: normal;
     margin-left: 15%;
     margin-right: 15%;
@@ -1016,8 +1032,19 @@ and (orientation: portrait){
   }
 
   .blogLinks {
-    font-size: 0.75em;
+    font-size: 0.65em;
     margin: 0px;
+  }
+
+  /* Archive */
+
+  ol {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+
+  .archiveList {
+  font-size: 1em;
   }
 
   /* Logo */
@@ -1203,7 +1230,7 @@ and (orientation: landscape) {
     margin-right: 15%;
     padding-left: 0px;
     padding-right: 0px;
-    font-size: 1.75em;
+    font-size: 1.5em;
     line-height: 1.25;
     text-align: justify;
   }
@@ -1235,7 +1262,7 @@ and (orientation: landscape) {
 
   header {
     font-family: 'Droid Sans', Sans-Serif;
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-weight: normal;
     margin-left: 15%;
     margin-right: 15%;
@@ -1457,7 +1484,7 @@ and (orientation: landscape) {
   .aboutCopy {
     margin-left: 15%;
     margin-right: 15%;
-    font-size: 1.5em;
+    font-size: 1.25em;
     line-height: 1.25;
     text-align: justify;
   }
@@ -1467,7 +1494,7 @@ and (orientation: landscape) {
     margin-right: 15%;
     padding-left: 0px;
     padding-right: 0px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.25;
     text-align: justify;
   }
@@ -1500,7 +1527,7 @@ and (orientation: landscape) {
 
   header {
     font-family: 'Droid Sans', Sans-Serif;
-    font-size: 1.25em;
+    font-size: 1.35em;
     font-weight: normal;
     margin-left: 15%;
     margin-right: 15%;
