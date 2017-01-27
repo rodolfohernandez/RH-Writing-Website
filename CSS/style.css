@@ -350,6 +350,7 @@ li {
 
 .blogSubHeading {
   font-family: 'Crimson Text', Sans-Serif;
+  text-align: center;
   font-size: 1.5em;
   margin-left: 25.5%;
   margin-right: 25.5%;
@@ -372,6 +373,7 @@ header {
 
 .blogContainer {
   position: relative;
+  font-size: 1.5em;
   padding-top: 1%;
   overflow: hidden;
 }
@@ -398,7 +400,11 @@ header {
 
 .blogLinks {
   margin: 0px;
-  font-size: 1.5em;
+  font-size: 1.25em;
+  font-family: "Crimson Text", Serif;
+}
+
+.blogLinkNavigation {
   font-family: "Crimson Text", Serif;
 }
 
@@ -708,9 +714,8 @@ and (orientation: portrait) {
     padding-bottom: 2%;
   }
 
-  .blogLinks {
-    font-size: 1em;
-    margin: 0px;
+  .blogContainer {
+    font-size: 0.75em;
   }
 
   /* Home Navigation */
@@ -1031,9 +1036,8 @@ and (orientation: portrait){
     padding-bottom: 2%;
   }
 
-  .blogLinks {
+  .blogContainer {
     font-size: 0.65em;
-    margin: 0px;
   }
 
   /* Archive */
@@ -1272,9 +1276,8 @@ and (orientation: landscape) {
     padding-bottom: 2%;
   }
 
-  .blogLinks {
-    font-size: 1.5em;
-    margin: 0px;
+  .blogContainer {
+    font-size: 1.25em;
   }
 
   /* Home Navigation */
@@ -1537,9 +1540,8 @@ and (orientation: landscape) {
     padding-bottom: 2%;
   }
 
-  .blogLinks {
-    margin: 0px;
-    font-size: 1.25em;
+  .blogContainer {
+    font-size: 1em;
   }
 
   /* Home Navigation */
