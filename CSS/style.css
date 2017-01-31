@@ -368,6 +368,11 @@ header {
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 3%;
+}
+
+.blogDate {
+  font-size: 1.75em;
+  padding-top: 1%;
   padding-bottom: 2%;
 }
 
@@ -411,11 +416,21 @@ header {
 /* Archive */
 
 .archiveList {
-  font-size: 1.50em; /* or smaller in main desktop view */
+  font-size: 1.5em; /* or smaller in main desktop view */
   margin: 0px;
   padding-top: 1%;
   display: list-item;
   list-style-type: square;
+}
+
+.archiveUpcoming {
+  font-family: 'Crimson Text', Sans-Serif;
+  font-size: 2em;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 1%;
 }
 
 ol {
@@ -711,6 +726,11 @@ and (orientation: portrait) {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 3%;
+  }
+
+  .blogDate {
+    font-size: 1em;
+    padding-top: 1%;
     padding-bottom: 2%;
   }
 
@@ -1033,6 +1053,11 @@ and (orientation: portrait){
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 3%;
+  }
+
+  .blogDate {
+    font-size: 0.75em;
+    padding-top: 1%;
     padding-bottom: 2%;
   }
 
@@ -1049,6 +1074,10 @@ and (orientation: portrait){
 
   .archiveList {
   font-size: 1em;
+  }
+
+  .archiveUpcoming {
+    font-size: 1.5em;
   }
 
   /* Logo */
@@ -1229,6 +1258,12 @@ and (orientation: landscape) {
     text-align: justify;
   }
 
+  .blogDate {
+    font-size: 1.5em;
+    padding-top: 1%;
+    padding-bottom: 2%;
+  }
+
   .blogCopy {
     margin-left: 15%;
     margin-right: 15%;
@@ -1273,7 +1308,6 @@ and (orientation: landscape) {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 3%;
-    padding-bottom: 2%;
   }
 
   .blogContainer {
@@ -1502,6 +1536,11 @@ and (orientation: landscape) {
     text-align: justify;
   }
 
+  .blogDate {
+    font-size: 1.2em;
+    padding-top: 1%;
+    padding-bottom: 2%;
+  }
 
   .blogTopDivider {
     margin: auto;
@@ -1537,12 +1576,21 @@ and (orientation: landscape) {
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 3%;
-    padding-bottom: 2%;
   }
 
   .blogContainer {
     font-size: 1em;
   }
+
+  /* Archive */
+  .archiveList {
+  font-size: 1em;
+  }
+
+  .archiveUpcoming {
+    font-size: 1.5em;
+  }
+
 
   /* Home Navigation */
   p {
