@@ -399,8 +399,16 @@ header {
   text-align: right;
 }
 
+.previousLinkLast {
+  text-align: center;
+}
+
 .nextLink {
   text-align: left;
+}
+
+.nextLinkLast {
+  text-align: center;
 }
 
 .blogLinks {
