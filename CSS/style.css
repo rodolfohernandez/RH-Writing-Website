@@ -421,6 +421,10 @@ header {
   font-family: "Crimson Text", Serif;
 }
 
+.blogReferences {
+  color: #808080;
+}
+
 /* Archive */
 
 .archiveList {
