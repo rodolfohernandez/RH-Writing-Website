@@ -305,7 +305,7 @@ li {
 
 .pageTitle {
   padding-top: 50px;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .portrait {
@@ -330,6 +330,60 @@ li {
   font-size: 1.75em;
   line-height: 1.25;
   text-align: justify;
+}
+
+.bookCopyTitle {
+  margin-left: 25.5%;
+  margin-right: 25.5%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 20%;
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.bookCopyTitle2 {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 9%;
+  font-size: 1.75em;
+  font-weight: bold;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.bookCopy {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 1.75em;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.polaroid {
+  width: 75%;
+}
+
+.etsyphoto {
+  width: 75%;
+}
+
+.disclosuretext {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 1.5em;
+  line-height: 1.25;
+  text-align: center;
 }
 
 .blogTopDivider {
@@ -550,6 +604,13 @@ ol {
   padding-right: 10%;
 }
 
+.bookRow1 {
+  height: 33%;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .instagramPhoto1, .instagramPhoto2, .instagramPhoto3 {
   display: inline-block;
   height: 100%;
@@ -702,7 +763,61 @@ and (orientation: portrait) {
     line-height: 1.25;
     text-align: justify;
   }
+  .bookCopyTitle {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20%;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+  }
 
+  .bookCopyTitle2 {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 7%;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .bookCopy {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 1.25em;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .polaroid {
+    width: 75%;
+  }
+
+  .etsyphoto {
+    width: 75%;
+  }
+
+  .disclosuretext {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1em;
+    line-height: 1.25;
+    text-align: center;
+  }
 
   .blogTopDivider {
     margin: auto;
@@ -833,6 +948,13 @@ and (orientation: portrait) {
     padding-top: 10%;
     padding-left: 2%;
     padding-right: 2%;
+  }
+
+  .bookRow1 {
+    height: 33%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .instagramPhoto1, .instagramPhoto2, .instagramPhoto3 {
@@ -1031,6 +1153,62 @@ and (orientation: portrait){
     text-align: justify;
   }
 
+  .bookCopyTitle {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20%;
+    font-size: 0.75em;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .bookCopyTitle2 {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10%;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .bookCopy {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1em;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .polaroid {
+    width: 75%;
+  }
+
+  .etsyphoto {
+    width: 75%;
+  }
+
+  .disclosuretext {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 0.75em;
+    line-height: 1.25;
+    text-align: center;
+  }
+
   .blogTopDivider {
     margin: auto;
     padding-top: 2.5%;
@@ -1126,6 +1304,13 @@ and (orientation: portrait){
     height: 33%;
     text-align: center;
     padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .bookRow1 {
+    height: 33%;
+    text-align: center;
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -1286,6 +1471,60 @@ and (orientation: landscape) {
     text-align: justify;
   }
 
+  .bookCopyTitle {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20%;
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .bookCopyTitle2 {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 9%;
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .bookCopy {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 1.75em;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .polaroid {
+    width: 75%;
+  }
+
+  .etsyphoto {
+    width: 75%;
+  }
+
+  .disclosuretext {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1.25em;
+    line-height: 1.25;
+    text-align: center;
+  }
+
   .blogTopDivider {
     margin: auto;
     padding-top: 2.5%;
@@ -1405,6 +1644,13 @@ and (orientation: landscape) {
     padding-top: 10%;
     padding-left: 5%;
     padding-right: 5%;
+  }
+
+  .bookRow1 {
+    height: 33%;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .instagramPhoto1, .instagramPhoto2, .instagramPhoto3 {
@@ -1548,6 +1794,62 @@ and (orientation: landscape) {
     text-align: justify;
   }
 
+  .bookCopyTitle {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20%;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .bookCopyTitle2 {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 9%;
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .bookCopy {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 1.2em;
+    line-height: 1.25;
+    text-align: center;
+  }
+
+  .polaroid {
+    width: 75%;
+  }
+
+  .etsyphoto {
+    width: 75%;
+  }
+
+  .disclosuretext {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1em;
+    line-height: 1.25;
+    text-align: center;
+  }
+
   .blogDate {
     font-size: 1.2em;
     padding-top: 1%;
@@ -1683,6 +1985,13 @@ and (orientation: landscape) {
     height: 33%;
     text-align: center;
     padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .bookRow1 {
+    height: 33%;
+    text-align: center;
     padding-left: 10%;
     padding-right: 10%;
   }
