@@ -202,7 +202,7 @@ img {
 .col2 {
   width: 75%;
   height: 100%;
-  background-image: url('../Images/heroImage.png');
+  background-image: url('../Images/heroImage2.png');
   background-size: cover;
 }
 
@@ -245,6 +245,7 @@ img {
   padding-top: 20%;
   padding-bottom: 20%;
   font-size: 2.2em;
+  text-align: center;
 }
 
 /* Titles */
@@ -881,7 +882,7 @@ and (orientation: portrait) {
   }
 
   li {
-    margin: 2.5%;
+    margin: 2%;
   }
 
   .divider {
@@ -893,6 +894,7 @@ and (orientation: portrait) {
     padding-top: 25%;
     padding-bottom: 25%;
     font-size: 1.5em;
+    text-align: center;
   }
 
   /* Logo */
@@ -1091,7 +1093,7 @@ and (orientation: portrait){
   }
 
   li {
-    margin: 3%;
+    margin: 2%;
   }
 
   .navigationItem {
@@ -1099,10 +1101,11 @@ and (orientation: portrait){
     padding-top: 20%;
     padding-bottom: 20%;
     font-size: 1em;
+    text-align: center;
   }
 
   .homeNavItem {
-    font-size: 1em;
+    font-size: .75em;
   }
 
   .hamburgler-icon-wrapper {
@@ -1590,6 +1593,7 @@ and (orientation: landscape) {
     padding-top: 25%;
     padding-bottom: 25%;
     font-size: 1.5em;
+    text-align: center;
   }
 
   .hamburgler-icon-wrapper {
@@ -1931,6 +1935,7 @@ and (orientation: landscape) {
     padding-top: 20%;
     padding-bottom: 20%;
     font-size: 1.5em;
+    text-align: center;
   }
 
 
